@@ -1,0 +1,3726 @@
+[
+  {
+    "title": "AI Capacity-Building Program for Vietnamese Workforce",
+    "slug": "ai-capacity-building-program-for-vietnamese-workforce",
+    "description": "Gain AI skills for workplace productivity through core concepts, prompt engineering, custom assistants, multimedia content creation, and real-world applications.",
+    "country": "Vietnam",
+    "language": "Vietnamese",
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ba Ria - Vung Tau Province",
+      "Binh Duong Province",
+      "Da Nang City",
+      "Dong Thap Province",
+      "Ho Chi Minh",
+      "Khanh Hoa Province",
+      "Son La Province",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI and Core Tools",
+        "description": "Understand AI concepts, trends, and tools to boost workplace productivity."
+      },
+      {
+        "title": "Prompt Engineering & Responsible AI",
+        "description": "Master effective prompts and ethical AI use for safe, transparent deployment."
+      },
+      {
+        "title": "Building Custom AI Assistants",
+        "description": "Create personalized assistants automating administrative, customer service, creative tasks."
+      },
+      {
+        "title": "Creating Multimedia Content with AI",
+        "description": "Design images, voiceovers, videos for marketing and training across sectors."
+      },
+      {
+        "title": "Real-World Applications of AI",
+        "description": "Apply tools to solve sector-specific challenges in hospitality and office management."
+      }
+    ],
+    "registrationUrl": "https://cohoi.ai.vn/",
+    "materialsUrl": "https://www.youtube.com/watch?v=aXRYPBA8YWs",
+    "heroImageUrl": "/images/courses/ai-capacity-building-program-for-vietnamese-workforce.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Fundamentals",
+    "slug": "ai-fundamentals",
+    "description": "Foundational course equipping participants with essential knowledge of artificial intelligence and its practical applications, exploring how AI and machine learning work with real-world capabilities and limitations.",
+    "country": "Singapore",
+    "language": "English",
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Essential knowledge of artificial intelligence and practical applications, exploring how AI and machine learning work, understanding real-world capabilities and limitations, and learning critical human oversight role in AI implementation."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Utilizing generative AI tools to enhance work task efficiency and improve productivity. Explores humans' crucial role in optimizing AI utilization and learning tasks enhanced with AI."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Writing effective prompts to achieve desired results. Applying prompting methods like few-shot prompting in professional activities and comprehending how generative AI tools generate results."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Navigating ethical AI use by addressing biases and inaccuracies. Implementing an AI harm prevention framework in real workplace settings and identifying potential security threats."
+      },
+      {
+        "title": "Stay Ahead of the AI Revolution",
+        "description": "Refining skills in evolving AI landscape. Discovering how organizations have successfully implemented AI and formulating strategies to keep abreast of ongoing developments."
+      }
+    ],
+    "registrationUrl": "https://aifundamentals.aisingapore.org/",
+    "materialsUrl": "https://aifundamentals.aisingapore.org/lesson/1-5-5-creating-your-ai-action-plan/",
+    "heroImageUrl": "/images/courses/ai-fundamentals.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Basic Course",
+    "slug": "ai-basic-course",
+    "description": "An introductory level microlearning course aimed at explaining what Generative AI is, how it's used, and how it differs from traditional machine learning, plus leveraging AI tools for productivity and ethical implementation.",
+    "country": "Japan",
+    "language": null,
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "An introductory level microlearning course aimed at explaining what Generative AI is, how it's used, and how it differs from traditional machine learning."
+      },
+      {
+        "title": "Maximize productivity with AI tools",
+        "description": "Leverage Generative AI tools to improve operational efficiency. Explore the critical role humans play in optimizing AI use and learn about workplace tasks enhanced with AI."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Create effective prompts to achieve desired results. Learn how to apply prompting techniques, such as future prompts participants can use for work."
+      },
+      {
+        "title": "Use AI appropriately and ethically",
+        "description": "Learn how to address bias and inaccuracies to use AI ethically. Develop the ability to identify security risks associated with AI use in the workplace."
+      },
+      {
+        "title": "Stay ahead of the AI revolution",
+        "description": "Participants can grow their skills in the ever-evolving field of AI. Learn about organizations using AI to achieve results and apply this knowledge in their own company."
+      }
+    ],
+    "registrationUrl": "https://robocoop.notion.site/AVPN-AI-90d42cb2886e48a689f8f13df534d6de",
+    "materialsUrl": "https://robocoop.notion.site/updatedlocaltrainingresourcemap",
+    "heroImageUrl": "/images/courses/ai-basic-course.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Training with Dicoding",
+    "slug": "ai-training-with-dicoding",
+    "description": "Learn AI fundamentals, maximize productivity with AI tools, master prompt engineering, and use AI responsibly in the workplace.",
+    "country": "Indonesia",
+    "language": null,
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Learn how AI works and its basic principles, including machine learning and generative AI applications."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Use generative AI tools to make work more efficient and simplify workflows for various office tasks."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Create effective commands to get desired results using prompting methods like few-shot prompting."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Learn ethical AI use by addressing bias, inaccuracies, security threats, and implement harm prevention."
+      },
+      {
+        "title": "Stay Ahead of the AI Revolution",
+        "description": "Hone skills in AI's evolving field and develop strategies to keep up with organizational implementations."
+      }
+    ],
+    "registrationUrl": "https://www.dicoding.com/p/ai-opportunity",
+    "materialsUrl": "https://www.dicoding.com/p/ai-opportunity#courses",
+    "heroImageUrl": "/images/courses/ai-training-with-dicoding.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI For Everyone",
+    "slug": "ai-for-everyone",
+    "description": "A comprehensive AI training program covering fundamentals, productivity tools, prompt engineering, responsible AI use, and staying current with AI developments.",
+    "country": "Indonesia",
+    "language": "English",
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Fundamentals Course",
+        "description": "Explore mechanics of AI, machine learning, and generative AI. Understand potential, constraints, and workplace integration strategies."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Learn to enhance work efficiency with generative AI tools and assess suitability for specific workplace tasks."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Write effective prompts using methods like few-shot prompting to generate targeted outputs for workplace tasks."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Navigate ethical AI use by addressing biases, implementing harm prevention frameworks, and identifying security threats."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Explore organizational AI implementations and develop strategies to keep abreast of ongoing AI developments."
+      }
+    ],
+    "registrationUrl": "https://learning.korika.id/",
+    "materialsUrl": "https://learning.korika.id/local-training-resource-map",
+    "heroImageUrl": "/images/courses/ai-for-everyone.jpg"
+  },
+  {
+    "title": "AI-SHIFT Phase 2",
+    "slug": "ai-shift-phase-2",
+    "description": "A comprehensive AI training course for teachers focusing on safe and effective integration of AI into educational settings, covering productivity, prompt engineering, ethics, and staying current with AI trends.",
+    "country": "South Korea",
+    "language": "English",
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Covers definition and basic operating principles of AI with emphasis on human oversight. Participants develop an AI Implementation Plan for safe integration into educational settings."
+      },
+      {
+        "title": "Maximize Productivity with AI",
+        "description": "Teachers learn to identify optimal generative AI tools for specific tasks. Results in a One-Week Lesson Material Package created by linking two or more AI tools."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Explores core prompting techniques including few-shot and Chain of Thought (CoT) to solve educational challenges. Builds a Personalized Prompt Library for core tasks."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Focuses on ethics, privacy, and data security, addressing potential AI harms and data bias. Educators develop School AI Utilization Guidelines for safe and ethical technology use."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Provides strategies for staying current with evolving AI trends and analyzing successful integration cases. Teachers build a Personalized AI Trend Monitoring System."
+      }
+    ],
+    "registrationUrl": "https://aishift.awesome-school.net/courses/",
+    "materialsUrl": "https://docs.google.com/document/d/1Y1pGdKcJaLZKj-ASNMplI6ntdkgGPAqV/edit",
+    "heroImageUrl": "/images/courses/ai-shift-phase-2.webp"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Training",
+    "slug": "ai-training-university-of-melbourne",
+    "description": "Introduction to AI covering history, basics, common tools, use cases with focus on generative AI, limitations, risks, ethical principles, and human oversight.",
+    "country": "Australia",
+    "language": "English",
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Brief history of AI, basics of AI function, overview of common AI tools and use cases focusing on generative AI, with introduction to limitations, risks, and ethical AI principles."
+      },
+      {
+        "title": "Introduction to Choosing AI for your enterprise",
+        "description": "Selecting generative AI tools, exploring productivity use cases, evaluating tasks, understanding human oversight role, and conducting risk assessments for deployment."
+      },
+      {
+        "title": "Introduction to Prompt Engineering for Generative AI",
+        "description": "Covers prompt engineering techniques including effective usage, clear prompt creation, output analysis, prompt refinement, specific techniques, and implementing guardrails."
+      },
+      {
+        "title": "Introduction to Using AI Responsibility",
+        "description": "Principles of responsible AI including Australian AI Safety Standard, Privacy Principles, identifying AI harms, privacy risks, equity issues, LLM bias, and AI accountability."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Staying current with AI developments, responsible and safe deployment strategies, staying knowledgeable, encouraging innovation, and building adaptive AI accountability approaches."
+      }
+    ],
+    "registrationUrl": "https://www.unimelb.edu.au/caide/research/caide-law/avpn-ai-opportunity-fund/",
+    "materialsUrl": "https://www.fifthquadrant.com.au/responsible-ai-index",
+    "heroImageUrl": "/images/courses/ai-training-university-of-melbourne.jpg"
+  },
+  {
+    "title": "AI Challenge Program for Single Mothers",
+    "slug": "ai-challenge-program-for-single-mothers",
+    "description": "A program offering AI training workshops at various skill levels, from introduction to intermediate, helping single mothers learn to use AI for daily tasks and creative projects.",
+    "country": "Japan",
+    "language": null,
+    "targetAudience": [
+      "Healthcare Related Workers",
+      "MSME employees",
+      "Other Industry Workers",
+      "Unemployed"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Introduction Workshop",
+        "description": "A simple, hands-on session for beginners. Learn how to use AI to draft email replies, get advice, and more."
+      },
+      {
+        "title": "Beginner AI Workshop",
+        "description": "Learn to use AI for career advice, financial planning, home organization, and task management to improve efficiency."
+      },
+      {
+        "title": "AI Intermediate Workshop",
+        "description": "Integrate AI into daily life using voice features, boost research, combine tools for task management, and create music."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/T8D9P5RCrz8GcGMB7",
+    "materialsUrl": "https://docs.google.com/presentation/d/16srD2fTlFM85g57GBX9g2kKDxGyrA-7rPWV27R6ziNA/edit?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-challenge-program-for-single-mothers.jpg"
+  },
+  {
+    "title": "AI Training",
+    "slug": "ai-training-one-forty",
+    "description": "Learn what AI is, how it works, and how it applies in daily life. Master productivity with AI tools, prompt writing, and responsible AI use.",
+    "country": "Taiwan",
+    "language": [
+      "English",
+      "Traditional Chinese"
+    ],
+    "targetAudience": [
+      "Domestic Workers (Home Caregivers)",
+      "Other Industry Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Taipei City",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Learn what AI is, how it works, and how it applies in daily life with confidence-building through relatable examples."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Use AI tools to boost efficiency in caregiving, factory, or MSME work. Learn when and how to use AI wisely."
+      },
+      {
+        "title": "Learn How to Prompt",
+        "description": "Master prompt writing by learning to give clear instructions and context for better AI results in writing and translation."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Understand AI's risks, biases, and ethical limits. Learn to protect privacy through real-world examples."
+      }
+    ],
+    "registrationUrl": "https://sites.google.com/one-forty.org/one-forty-belajar-ai/%E9%A6%96%E9%A0%81",
+    "materialsUrl": "https://www.youtube.com/watch?v=WxiAPS2DmQ8",
+    "heroImageUrl": "/images/courses/ai-training-one-forty.webp"
+  },
+  {
+    "title": "AI for Essential Digital Skills",
+    "slug": "ai-for-essential-digital-skills",
+    "description": "Explores AI fundamentals, workplace productivity tools, prompt engineering, ethical implementation, and staying current with AI advancements for essential digital skills.",
+    "country": "Singapore",
+    "language": "English",
+    "targetAudience": [
+      "College/University Students",
+      "Vocational School Students",
+      "Other Industry Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Singapore",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Unpacks artificial intelligence, exploring core principles like machine learning and generative AI's transformative potential with real-world examples."
+      },
+      {
+        "title": "Maximise Productivity with AI Tools",
+        "description": "Explores how generative AI tools can transform workplace efficiency across business functions including content creation and workflow automation."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Develops essential skills for crafting effective prompts to optimize generative AI outputs in professional contexts."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Addresses ethical implementation of AI in professional settings, focusing on strategies for risk mitigation including bias and data privacy."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Prepares learners to navigate the evolving AI landscape and identify opportunities to integrate AI into workplace workflows."
+      }
+    ],
+    "registrationUrl": "https://aifundamentals.aisingapore.org/course/ai-for-essential-digital-skills/",
+    "materialsUrl": "https://aifundamentals.aisingapore.org/lesson/introduction-to-ai/",
+    "heroImageUrl": "/images/courses/ai-for-essential-digital-skills.webp"
+  },
+  {
+    "title": "RuangAI",
+    "slug": "ruangai",
+    "description": "Comprehensive AI training covering introduction to AI, productivity with AI tools, prompt engineering, responsible AI, and skills for excelling in the AI era.",
+    "country": "Indonesia",
+    "language": "English",
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Unemployed",
+      "Vocational School Students"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Defines AI, explores functionality, types, learning models and neural networks with practical applications and AI vs ML distinction."
+      },
+      {
+        "title": "Productivity with AI Tools",
+        "description": "Contrasts traditional and generative AI with mechanics, use cases, and comparisons of popular generative AI tools."
+      },
+      {
+        "title": "Prompt Engineering",
+        "description": "In-depth understanding of prompting types, benefits, practical applications, tips for improvement and case studies."
+      },
+      {
+        "title": "Responsible AI",
+        "description": "Core understanding of responsible AI dimensions, challenges of generative models, governance frameworks and fraud cases."
+      },
+      {
+        "title": "Excelling in the AI Era",
+        "description": "Skill development for continuous growth and methods for staying ahead in the evolving AI landscape."
+      },
+      {
+        "title": "Simulation",
+        "description": "Hands-on practical experience through prompting simulations including Ideogram, CV Creation, and VEO 3."
+      }
+    ],
+    "registrationUrl": "https://www.ruangai.id/",
+    "materialsUrl": "https://www.youtube.com/watch?v=w53uuuglK-c",
+    "heroImageUrl": "/images/courses/ruangai.jpg"
+  },
+  {
+    "title": "VET AI CARE - Veterinary Empowerment Through AI for Compassionate Animal Response and Engagement",
+    "slug": "vet-ai-care-veterinary-empowerment-through-ai-for-compassionate-animal-response-and-engagement",
+    "description": "A course showcasing how AI can support compassionate veterinary and welfare practices, helping participants understand technology as a partner in animal well-being.",
+    "country": "Japan",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Healthcare Related Workers",
+      "Non-profit Sector Workers",
+      "Vocational School Students"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction Video - The Future of AI in Animal Care",
+        "description": "A short introductory video showcasing how AI can support compassionate veterinary and welfare practices."
+      },
+      {
+        "title": "What is AI? Understanding the Basics for Veterinary Practice",
+        "description": "Introduces fundamental AI concepts using relatable examples from clinics and shelters."
+      },
+      {
+        "title": "Maximizing Productivity with AI Tools in Clinics",
+        "description": "Demonstrates practical AI tools that streamline scheduling, documentation, and client interaction."
+      },
+      {
+        "title": "Discovering the Art of Prompt Engineering",
+        "description": "Teaches participants to craft effective prompts for generating reports, educational materials, and care plans."
+      },
+      {
+        "title": "Practicing Ethical and Responsible AI for One Health",
+        "description": "Covers responsible AI use, data ethics, and fairness in veterinary settings."
+      },
+      {
+        "title": "Staying Ahead - Preparing for the Next AI Evolution",
+        "description": "Encourages continuous learning about emerging AI trends shaping animal care and One Health ecosystem."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfDGDLuGehplDyDGd1r2yczZNVNnuzKKF6_hWOKoIMH4NrJvA/viewform",
+    "materialsUrl": "https://youtu.be/d62YGeaaMCc?si=zma-W0RZg22OuTBv",
+    "heroImageUrl": "/images/courses/vet-ai-care-veterinary-empowerment-through-ai-for-compassionate-animal-response-and-engagement.jpg"
+  },
+  {
+    "title": "AI Career Jump Study",
+    "slug": "ai-career-jump-study",
+    "description": "Learn generative AI and prompt engineering principles with hands-on practice, career exploration, and AI trend analysis for job preparation.",
+    "country": "South Korea",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Other Industry Workers",
+      "Unemployed"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Generative AI and Prompt Engineering",
+        "description": "Learn the principles and necessity of generative AI, and master the fundamentals of prompt engineering."
+      },
+      {
+        "title": "Deep Research and Career Information Exploration",
+        "description": "Utilize Gemini Deep Research to explore information essential for job preparation, and learn effective prompt writing and career report design techniques."
+      },
+      {
+        "title": "Hands-On Practice and Core Concepts",
+        "description": "Learn the structure and functions of various AI tools, and utilize it for job preparation through data organization."
+      },
+      {
+        "title": "Latest AI Trends and Career Branding",
+        "description": "Understand AI utilization trends by job type and create branding page using the latest AI agents."
+      }
+    ],
+    "registrationUrl": "https://avpn.gpters.org/",
+    "materialsUrl": "https://sites.google.com/view/aiof-2-chijunfortd/3%EC%A3%BC%EC%B0%A8/3-%EB%85%B8%ED%8A%B8%EB%B6%81-lm-%EC%8B%A4%EC%8A%B5?authuser=0",
+    "heroImageUrl": "/images/courses/ai-career-jump-study.webp"
+  },
+  {
+    "title": "AI Literacy for Teachers - Ethical AI in Education",
+    "slug": "ai-literacy-for-teachers-ethical-ai-in-education",
+    "description": "This module covers what AI is, how it has developed, and terminology used to discuss AI. It explores how educators can leverage AI for teaching impact, potential ethical and legal risks, and mitigation strategies. Educators develop AI skills including prompt writing, output evaluation, and building custom AI tools.",
+    "country": "Australia",
+    "language": "English",
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "What is AI",
+        "description": "This module covers what AI is, what it isn't, how AI has developed over time and the terminology used to talk about AI."
+      },
+      {
+        "title": "Risks & Benefits?",
+        "description": "This module covers how educators can leverage AI for the best impact on their teaching, as well as the potential ethical and legal risks AI might pose and how to mitigate these risks."
+      },
+      {
+        "title": "Developing your AI Literacy",
+        "description": "This module provides educators with the opportunity to develop their AI skills, including prompt writing, evaluating the output of AI and building custom AI tools for specific scenarios."
+      }
+    ],
+    "registrationUrl": "https://cool.org/course/ai-in-education",
+    "materialsUrl": "https://vimeo.com/1096497972/af3b194ee5?share=copy",
+    "heroImageUrl": "/images/courses/ai-literacy-for-teachers-ethical-ai-in-education.jpg"
+  },
+  {
+    "title": "AI-SHIFT Phase 1",
+    "slug": "ai-shift-phase-1",
+    "description": "A training program designed to help teachers adopt AI tools in their work, covering basic concepts, prompt engineering, practical applications, and AI ethics.",
+    "country": "South Korea",
+    "language": "English",
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Your First Step to Work Innovation with AI",
+        "description": "Understand basic AI concepts and principles, explore necessity of adopting AI in teachers' work, and conduct hands-on preview of AI tools for administrative tasks."
+      },
+      {
+        "title": "Strengthening Teachers' AI Skills - Prompt Engineering",
+        "description": "Deepen understanding of generative AI principles and learn effective prompt writing using Persona, Context, and Task elements with practical exercises."
+      },
+      {
+        "title": "Hacking Teacher Tasks - Using AI to Leave Work Earlier",
+        "description": "Learn practical applications of various AI tools for creating teaching materials, evaluating student work, and managing administrative tasks."
+      },
+      {
+        "title": "Becoming a Master of the AI World (AI Ethics and Sustainability)",
+        "description": "Understand ethical issues and AI standards including bias and data protection; develop critical thinking through AI dilemma discussions."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/tJVju2dPXA67EoFZA",
+    "materialsUrl": "https://slashpage.com/ai-shift",
+    "heroImageUrl": "/images/courses/ai-shift-phase-1.webp"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Training Program",
+    "slug": "ai-training-program",
+    "description": "Learn to leverage generative AI tools responsibly in workplace settings, from fundamentals through practical applications and ethical considerations.",
+    "country": "Vietnam",
+    "language": null,
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Uncover AI mechanics and essential principles including machine learning. Explore generative AI and practical applications."
+      },
+      {
+        "title": "Enhancing productivity with AI tools",
+        "description": "Utilize generative AI to enhance work efficiency. Learn human optimization strategies for AI and workplace task applications."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Write effective prompts for desired results. Understand how generative AI produces outputs and importance of evaluation."
+      },
+      {
+        "title": "Use AI Responsibility",
+        "description": "Navigate ethical AI use by addressing biases and inaccuracies. Implement harm prevention frameworks and identify security threats."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Refine skills in evolving AI landscape. Discover organizational AI implementations and inspire innovative workplace solutions."
+      }
+    ],
+    "registrationUrl": "https://ai.nanglucso.vn/",
+    "materialsUrl": "https://docs.google.com/spreadsheets/d/1qzeWFdNTMrpP26EmlfgZBbDi-BQHgOS2oLoCUpOWREM/edit?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-training-program.jpg"
+  },
+  {
+    "title": "AI Training for Youth",
+    "slug": "ai-training-for-youth",
+    "description": "Systematic and comprehensive introduction to Artificial Intelligence designed for first-time learners, progressing from fundamental concepts to deeper technical understanding and human-AI interaction.",
+    "country": "Japan",
+    "language": null,
+    "targetAudience": [
+      "Non-profit Sector Workers",
+      "Other Industry Workers",
+      "Unemployed"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "What is AI?",
+        "description": "Foundational introduction to AI concepts and practical tools for first-time learners, building toward deeper technical understanding."
+      },
+      {
+        "title": "Maximizing Productivity with AI",
+        "description": "Practical skills in using Generative AI combined with foundational understanding of technological and strategic contexts."
+      },
+      {
+        "title": "About Prompt Engineering",
+        "description": "Critical skill of prompting for effective Generative AI output, balanced with understanding of limitations, risks, and responsible use."
+      },
+      {
+        "title": "AI Ethics",
+        "description": "Ethical dimensions and responsible implementation of AI, focusing on bias, legal risks, and frameworks for human-AI interaction."
+      }
+    ],
+    "registrationUrl": "https://fr.sodateage.net/coop/soredo/",
+    "materialsUrl": null,
+    "heroImageUrl": "/images/courses/ai-training-for-youth.jpg"
+  },
+  {
+    "title": "AI Applications for Digital Transformation",
+    "slug": "ai-applications-for-digital-transformation",
+    "description": "Learn AI fundamentals, generative AI tools, prompt engineering, and responsible AI use with practical applications for digital transformation.",
+    "country": "Vietnam",
+    "language": "English",
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Da Lat",
+      "Phuong Cam Ly",
+      "Phuong Lang Biang",
+      "Phuong Xuan Huong",
+      "Virtual",
+      "Xa Da Huoai",
+      "Xa Hoa Ninh Di Linh",
+      "Xa Tan Ha Lam Ha",
+      "Xuan Huong"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "description": "Learn AI fundamentals, key concepts, and its social and professional impacts."
+      },
+      {
+        "title": "Generative AI Tools and Practice",
+        "description": "Hands-on use of AI tools to create content, summarize information, and support real-world tasks."
+      },
+      {
+        "title": "Prompt Engineering Essentials",
+        "description": "Understand how to write effective prompts and learn frameworks like zero-shot and few-shot prompting."
+      },
+      {
+        "title": "Responsible and Ethical AI Use",
+        "description": "Explore AI ethics, data privacy, and bias prevention in education, government, and business contexts."
+      },
+      {
+        "title": "Continuous AI Learning and Application",
+        "description": "Discover resources for ongoing skill development and personalized action plans for professional growth."
+      }
+    ],
+    "registrationUrl": "https://bit.ly/43rDBBD",
+    "materialsUrl": "https://docs.google.com/forms/d/e/1FAIpQLSeVanYBDTHvFd48CmR3aBYpOmbuEhuwLqNwfsXyyUbMYb7kDQ/viewform",
+    "heroImageUrl": "/images/courses/ai-applications-for-digital-transformation.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Opportunity",
+    "slug": "ai-opportunity",
+    "description": "Learning materials covering artificial intelligence, machine learning, generative AI tools, prompt engineering, responsible AI use, and developing competencies in the AI era.",
+    "country": "South Korea",
+    "language": null,
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Concept and development of artificial intelligence and machine learning"
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Generative AI tools, prompts, responsible use of AI and human intervention importance"
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Theoretical considerations on Large Language Models (LLMs) and prompt engineering"
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Understanding biases in AI, harmful effects, security and privacy risks"
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Developing competencies and continuing education in the AI era"
+      }
+    ],
+    "registrationUrl": "https://hamjjang.notion.site/AI-Opportunity-AVPN-SNU-AI-52fc2d05bf7b40848a1a9e306e379a61",
+    "materialsUrl": "https://hamjjang.notion.site/28c2c99f65f58121a4dedc5fb1f197d3?v=2a02c99f65f58080a143000c6c87bc38",
+    "heroImageUrl": "/images/courses/ai-opportunity.jpg"
+  },
+  {
+    "title": "The AI Literacy Program: From Basics to Responsibility",
+    "slug": "the-ai-literacy-program-from-basics-to-responsibility",
+    "description": "Explore fundamental AI principles and machine learning, understand generative AI's potential and limitations, and learn responsible AI implementation through practical cases.",
+    "country": "Taiwan",
+    "language": null,
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)",
+      "MSME employees",
+      "Non-profit Sector Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Hualien County",
+      "Kaohsiung City",
+      "New Taipei City",
+      "Taichung City",
+      "Taipei City",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explore fundamental principles of AI and machine learning, understand potential and limitations of Generative AI."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Learn to use AI tools to simplify processes and optimize workflows to boost output efficiency."
+      },
+      {
+        "title": "NotebookLM: Building a Professional Knowledge Base",
+        "description": "Master Google's note-taking tool to import documents and generate outlines and summaries."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Master prompting through practical cases to craft precise instructions for professional results."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Focus on AI ethics and risk management with safe practices through local cases and actionable methods."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Explore human-AI collaboration trends and strengthen human value in the AI era."
+      }
+    ],
+    "registrationUrl": "https://aiforeveryone.aiacademy.tw/courses",
+    "materialsUrl": null,
+    "heroImageUrl": "/images/courses/the-ai-literacy-program-from-basics-to-responsibility.jpg"
+  },
+  {
+    "title": "AI Skilling for Young Workers (InnovAItion)",
+    "slug": "ai-skilling-for-young-workers-innovaition",
+    "description": "Training program focused on artificial intelligence and generative AI skills for young workers, covering responsible AI usage and practical applications across various career themes.",
+    "country": "Indonesia",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Unemployed",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bali",
+      "Central Java",
+      "East Java",
+      "Greater Jakarta",
+      "West Java",
+      "West Nusa Tenggara"
+    ],
+    "modules": [
+      {
+        "title": "Artificial Intelligence",
+        "description": "Introduction to artificial intelligence and LLM (large language model)."
+      },
+      {
+        "title": "Generative AI",
+        "description": "Generative AI introduction and engineering prompting art."
+      },
+      {
+        "title": "Responsible in using AI",
+        "description": "AI Utilization with responsibility and 7 principles of Google AI."
+      },
+      {
+        "title": "Utilization of AI in thematic topic",
+        "description": "Career preparation, daily works, school tasks, or career segmented (basic entrepreneurship, digital marketing, content writing, etc.)."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSdSIm3ZhH8TalmvIYiY9lV88wZ3JluH_2EcKAVpFuSR08a3DA/viewform",
+    "materialsUrl": "https://zoom.us/rec/share/V-A0UtODabVs-oWzEKztgPEhHkQIhn6cYRuri-ZGjMgDIukiEoOdiaiSlYWeqkTQ.hBg5Lu1OwqeklDvN",
+    "heroImageUrl": "/images/courses/ai-skilling-for-young-workers-innovaition.jpg"
+  },
+  {
+    "title": "Use AI Everyday - Generative AI for Life & Work",
+    "slug": "use-ai-everyday-generative-ai-for-life-work",
+    "description": "Introduction to generative AI covering everyday use cases, practical workplace applications, how AI works, prompting techniques, and understanding AI limitations.",
+    "country": "Japan",
+    "language": null,
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": [
+      "In Person",
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Getting Started with Generative AI",
+        "description": "Introduction to the training. Understand what will be learned across 15 sessions."
+      },
+      {
+        "title": "Let's Try Generative AI!",
+        "description": "Discover everyday use cases of AI, the importance of human review, and basic rules for information security and privacy."
+      },
+      {
+        "title": "Using Generative AI at Work",
+        "description": "Explore practical workplace applications of generative AI and identify specific use cases for productivity."
+      },
+      {
+        "title": "What Generative AI Can and Can't Do",
+        "description": "Learn the strengths and limitations of generative AI, setting realistic expectations for its use."
+      },
+      {
+        "title": "How Does Generative AI Work?",
+        "description": "Understand what AI and generative AI mean, how machine learning works, and why human involvement is essential."
+      },
+      {
+        "title": "Introduction to Prompts",
+        "description": "Learn how prompts guide AI and practice creating clear, effective prompts for work tasks."
+      },
+      {
+        "title": "Generative AI Makes Mistakes",
+        "description": "Recognize common issues in AI outputs and understand the challenges large language models face."
+      },
+      {
+        "title": "How to Get Better Answers",
+        "description": "Develop skills to analyze AI outputs and refine prompts to improve results."
+      },
+      {
+        "title": "Example Prompts in Practice",
+        "description": "Explore advanced prompting techniques such as few-shot prompting and apply them to real tasks."
+      }
+    ],
+    "registrationUrl": "https://drive.google.com/file/d/1EXe13ldH2uay69qs6FQnkTDh2ZbAVbom/view",
+    "materialsUrl": "https://drive.google.com/file/d/1cmjhRrPRs_A7CpZIxm1t7Ky5uEzpn228/view?usp=sharing",
+    "heroImageUrl": "/images/courses/use-ai-everyday-generative-ai-for-life-work.webp"
+  },
+  {
+    "title": "Aku Mampu AI",
+    "slug": "aku-mampu-ai",
+    "description": "Training on artificial intelligence fundamentals, applications, and responsible use with focus on disability inclusion",
+    "country": "Indonesia",
+    "language": [
+      "Indonesian",
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Non-profit Sector Workers",
+      "Other Industry Workers"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Guidelines in using AI platform",
+        "description": "Step-by-step tutorial for accessing and using various AI-based applications and websites in video format"
+      },
+      {
+        "title": "Getting to Know AI",
+        "description": "Basic concepts of AI as a branch of computer science that imitates human thinking through data collection and algorithm analysis"
+      },
+      {
+        "title": "Uses of AI",
+        "description": "Integration of AI in everyday life across various fields and accessibility applications for people with disabilities"
+      },
+      {
+        "title": "How to use AI",
+        "description": "Effective AI usage through prompting techniques with structured inputs to produce quality outputs"
+      },
+      {
+        "title": "Responsible AI",
+        "description": "Practical exploration of AI integration in daily activities including communication, work, shopping, and learning"
+      }
+    ],
+    "registrationUrl": "https://akumampu.annikalindencentre.org/",
+    "materialsUrl": "https://drive.google.com/file/d/1EEQ4A2R2oai5IH9_C8_rl0ZaK-NK8M6S/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/aku-mampu-ai.jpg"
+  },
+  {
+    "title": "AI Literacy Training Project",
+    "slug": "ai-literacy-training-project",
+    "description": "Learn what Artificial Intelligence actually is, how it works, and how it can enhance career opportunities through practical AI tools and techniques.",
+    "country": "Bangladesh",
+    "language": null,
+    "targetAudience": [
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1 & 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Barishal",
+      "Chattogram",
+      "Dhaka",
+      "Khulna",
+      "Netrokona",
+      "Rangpur",
+      "Sylhet"
+    ],
+    "modules": [
+      {
+        "title": "AI Introduction",
+        "description": "Learn what Artificial Intelligence (AI) actually is, how it works, and how it can bring momentum to one's career."
+      },
+      {
+        "title": "Increasing Work Efficiency through AI Tools",
+        "description": "Discuss methods of working using AI tools. Step-by-step, participants will learn how to multiply work speed and efficiency by using various AI tools."
+      },
+      {
+        "title": "Prompt Engineering Techniques",
+        "description": "Learn effective strategies for writing prompts to ensure correct and high-quality output from AI tools. Master the skill of giving specific instructions to the AI."
+      },
+      {
+        "title": "Using AI in Marketing",
+        "description": "Learn about the diverse uses of AI and develop strategies for successful marketing (SEO) and business growth."
+      },
+      {
+        "title": "Keeping Pace with AI Advancement",
+        "description": "Participants will create an effective strategy to ensure greater opportunities for their future career and learn to face specific challenges of AI and new technologies."
+      }
+    ],
+    "registrationUrl": "https://learn-ai.brac.net/",
+    "materialsUrl": "https://drive.google.com/file/d/1rXsh6HOXC3-TLYkvne4cwxVkX2alqxr_/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-literacy-training-project.jpg"
+  },
+  {
+    "title": "AI for Workforce Wellbeing",
+    "slug": "ai-for-workforce-wellbeing",
+    "description": "A course exploring how AI works, generative AI capabilities, ethical implementation, and AI tools for workplace efficiency and productivity.",
+    "country": "India",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Non-profit Sector Workers"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Basic",
+        "description": "Discover how AI works and explore foundational concepts like machine learning and generative AI capabilities and limitations for workplace integration."
+      },
+      {
+        "title": "Gen AI and Prompting Techniques",
+        "description": "Essential techniques for crafting effective prompts to optimize AI outputs for accuracy and fairness, including Chain-of-Thought methodology and bias mitigation."
+      },
+      {
+        "title": "AI Tools And Applications",
+        "description": "Modern AI tools and their impact on workplace efficiency, learning AI-driven automation, content generation, and streamlined workflows."
+      },
+      {
+        "title": "AI Ethics and Risk Management",
+        "description": "Explore ethical challenges and potential harms including privacy breaches and data biases, with best practices for responsible implementation."
+      },
+      {
+        "title": "Elevating AI Knowledge",
+        "description": "Develop skills within the current AI landscape and create strategies to stay current with future AI developments in organizational contexts."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/i2BK7ozt7mU4Qhsc7",
+    "materialsUrl": "https://drive.google.com/file/d/1nT9iNF8pLLWQ_0AEfYiSGHCSpuF7MJ8r/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-for-workforce-wellbeing.webp"
+  },
+  {
+    "title": "AI Opportunity for Vietnamese Healthcare Professionals",
+    "slug": "ai-opportunity-for-vietnamese-healthcare-professionals",
+    "description": "An AI training course designed to build healthcare professionals' capabilities in artificial intelligence applications for clinical and administrative workflows.",
+    "country": "Vietnam",
+    "language": null,
+    "targetAudience": [
+      "Healthcare Related Workers",
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bac Ninh",
+      "Ha Noi",
+      "Hai Phong",
+      "Ho Chi Minh",
+      "Nam Dinh",
+      "Quang Binh",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Build a solid AI foundation for the future of healthcare."
+      },
+      {
+        "title": "Improve Productivity with AI Tools",
+        "description": "Optimize clinical and administrative workflows with practical AI tools."
+      },
+      {
+        "title": "Discover the Secrets of Prompt",
+        "description": "Ask the right questions for smarter support in diagnosis, care, and learning."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Apply AI safely, ethically, and in alignment with clinical practice."
+      }
+    ],
+    "registrationUrl": "https://cohoiai.doccen.vn/",
+    "materialsUrl": "https://drive.google.com/file/d/1kT8iNYd40JzdPa_iqx49n-mxNXFW0GqX/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-opportunity-for-vietnamese-healthcare-professionals.jpg"
+  },
+  {
+    "title": "AI Inclusive Co-Learning Project",
+    "slug": "ai-inclusive-co-learning-project",
+    "description": "Taiwan-based AI application case studies with monthly hackathons and workshops where learners can present ideas, receive feedback, and get support throughout project development.",
+    "country": "Taiwan",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Non-profit Sector Workers",
+      "Other Industry Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "New Taipei City",
+      "Taipei City",
+      "Taoyuan City",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Getting Started with AI and Joining a Learning Community",
+        "description": "Online self-learning resources and assignments based on practical application scenarios to help learners begin using AI tools and join peer learning communities."
+      },
+      {
+        "title": "Empowering AI Application Proposals",
+        "description": "Structured templates and documentation for AI application proposals to help learners turn ideas into proposals and guide them in using relevant AI tools."
+      },
+      {
+        "title": "Civic Tech Hackathons and Hands-on Activities",
+        "description": "Monthly hackathons or workshops where learners present AI application ideas, receive implementation feedback, and get project development support."
+      }
+    ],
+    "registrationUrl": "https://g0v.hackmd.io/@jothon/ai/",
+    "materialsUrl": "https://g0v.hackmd.io/@jothon/ai/https%3A%2F%2Fg0v.hackmd.io%2Fu_WlftE-TreiWR59Jyr07w%3Fview",
+    "heroImageUrl": "/images/courses/ai-inclusive-co-learning-project.webp"
+  },
+  {
+    "title": "Electives AI Training",
+    "slug": "electives-ai-training",
+    "description": "Get to know what AI is, how it works, and its everyday impact. Experiment with AI tools and learn responsible use.",
+    "country": "Indonesia",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI and Its Everyday Impact",
+        "description": "Get to know what Artificial Intelligence is, how it works behind the scenes, and how it's shaping the way we live, learn, and work."
+      },
+      {
+        "title": "Boost Your Productivity with AI Tools",
+        "description": "Experiment with AI tools to summarize, write, plan, and create more efficiently. No advanced tech skills required!"
+      },
+      {
+        "title": "Mastering Effective Prompting",
+        "description": "Practice crafting precise prompts, refining responses, and getting the most out of existing AI tools"
+      },
+      {
+        "title": "Using AI Responsibly and Ethically",
+        "description": "Understand AI risks such as bias and privacy issues, and learn how to use the technology safely, wisely, and ethically."
+      }
+    ],
+    "registrationUrl": "https://bit.ly/gengaitraining",
+    "materialsUrl": "https://drive.google.com/file/d/1Ij51hF5I9Kkd5Fxs_999xd81cdmSatLR/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/electives-ai-training.webp"
+  },
+  {
+    "title": "AI CAN DO IT",
+    "slug": "ai-can-do-it",
+    "description": "Learn basic AI concepts, discover practical AI tools for business operations, master effective prompting techniques, understand responsible AI use, and stay updated with emerging technologies.",
+    "country": "Philippines",
+    "language": null,
+    "targetAudience": [
+      "MSME employees"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Quezon City"
+    ],
+    "modules": [
+      {
+        "title": "AI? What's that?",
+        "description": "Learn basic concepts of AI, common terms, and relevance to sari-sari store operations with real-life business examples."
+      },
+      {
+        "title": "AI Tools? Do I need that?",
+        "description": "Discover AI tools with practical demonstrations for recordkeeping, inventory management, promotions, and customer engagement."
+      },
+      {
+        "title": "Talk to AI? How?",
+        "description": "Learn effective prompting skills to write clear prompts and apply techniques for better results in daily store management."
+      },
+      {
+        "title": "AI for Everyone! Use Responsibly",
+        "description": "Focus on responsible AI use, data privacy protection, misinformation avoidance, deepfakes awareness, and ethical technology use."
+      },
+      {
+        "title": "Level Up with AI",
+        "description": "Learn to stay updated with emerging AI technologies, join online communities, and adapt to new trends for business growth."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfR5WcoS857Inom7vR335NIsJ7c2zXpyFy_gS2ym7wb78RAgw/viewform",
+    "materialsUrl": "https://drive.google.com/file/d/1-G-lz17ZH2odQsILPrI6CrABkuXw8UFv/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-can-do-it.jpg"
+  },
+  {
+    "title": "AI for All",
+    "slug": "ai-for-all-hatch",
+    "description": "A hybrid course covering AI fundamentals, GenAI applications, responsible AI use, and real-world implementations in Singapore context.",
+    "country": "Singapore",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Other Industry Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Singapore",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Fundamentals",
+        "description": "Core concepts of AI, how it functions, and relevance to participants."
+      },
+      {
+        "title": "GenAI Fundamentals and Application",
+        "description": "Exploring generative AI with custom applications including personal coaching and job search support."
+      },
+      {
+        "title": "Responsible AI Use",
+        "description": "Ethical dimensions of AI examining real-world dilemmas in education, hiring, and creative work."
+      },
+      {
+        "title": "Real World AI Applications",
+        "description": "Practical implementations of AI grounded in local Singapore industrial contexts."
+      }
+    ],
+    "registrationUrl": "https://hatch.sg/aiforall",
+    "materialsUrl": "https://drive.google.com/file/d/1baS9O-p5ealgi-nyo2Qij68nBewnVKTK/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-for-all-hatch.jpg"
+  },
+  {
+    "title": "Jan AI",
+    "slug": "jan-ai",
+    "description": "Comprehensive AI course exploring foundational concepts, generative AI techniques, practical tools, ethics, and real-world applications across various sectors.",
+    "country": "India",
+    "language": null,
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "College/University Students",
+      "Non-profit Sector Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Agra",
+      "Bangalore",
+      "Bidar",
+      "Bokaro",
+      "Durg",
+      "Gaya",
+      "Ghaziabad",
+      "Gulbarga",
+      "Gwalior",
+      "Haridwar",
+      "Indore",
+      "Jabalpur",
+      "Jhajjar",
+      "Kadapa",
+      "Kochi",
+      "Lucknow",
+      "Maithon",
+      "Muzzafarpur",
+      "Patna",
+      "Raichur",
+      "Ranchi",
+      "Rewa",
+      "Sirohi",
+      "Surat",
+      "Ujjain",
+      "Varanasi",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Basics",
+        "description": "Discover how AI works and foundational ML concepts, including generative AI capabilities and limitations for workplace integration."
+      },
+      {
+        "title": "Gen AI and Prompting Techniques",
+        "description": "Essential techniques for crafting effective prompts with emphasis on accuracy, fairness, and ethical considerations using advanced methods."
+      },
+      {
+        "title": "AI Tools And Applications",
+        "description": "Modern AI-driven applications for automating tasks, generating content, enhancing decision-making, and streamlining workflows."
+      },
+      {
+        "title": "AI Ethics and Risk Management",
+        "description": "Explores ethical challenges and potential harms including privacy breaches, security concerns, and data biases with mitigation strategies."
+      },
+      {
+        "title": "Elevating AI Knowledge",
+        "description": "Developing skills within current and emerging AI landscapes while building strategies to stay updated with future developments."
+      },
+      {
+        "title": "AI Use Case",
+        "description": "Real-world applications across sectors like Health, Agriculture, Robotics, Automobile, Retail, Finance, and Transportation."
+      }
+    ],
+    "registrationUrl": "https://janai.ai/",
+    "materialsUrl": "https://drive.google.com/file/d/15hVWOPGlALMUDzg23lqIlTVFJay-oELI/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/jan-ai.jpg"
+  },
+  {
+    "title": "HerTech",
+    "slug": "hertech",
+    "description": "AI literacy program with tailored tracks for MSMEs and skilled workers, covering AI fundamentals, inclusivity, opportunities, and future applications with hands-on closing modules.",
+    "country": "Indonesia",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "MSME employees",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bandung",
+      "Banjarbaru",
+      "Banjarmasin",
+      "Bekasi",
+      "Bogor",
+      "Depok",
+      "DKI Jakarta",
+      "Sukabumi",
+      "Tanah Laut",
+      "Virtual",
+      "Wonosobo",
+      "Yogyakarta"
+    ],
+    "modules": [
+      {
+        "title": "Foundational Module",
+        "description": "Delivered at program beginning with two tailored tracks: MSMEs and skilled workers."
+      },
+      {
+        "title": "AI and Inclusivity",
+        "description": "Overview of AI developments in Indonesia, opportunities, challenges, and recommendations for digital literacy framework."
+      },
+      {
+        "title": "AI and Opportunities Today",
+        "description": "Exploration of AI opportunities, challenges, and ethical considerations."
+      },
+      {
+        "title": "AI and the Future",
+        "description": "Indonesia's potential to benefit from AI and accelerate economic growth."
+      },
+      {
+        "title": "Closing Modules",
+        "description": "For MSMEs: AI-supported copywriting and product promotion. For skilled workers: CV, cover letter, and interview preparation enhancement."
+      }
+    ],
+    "registrationUrl": "https://s.id/hertech",
+    "materialsUrl": "https://drive.google.com/file/d/1GapleSD0TN5GuTskWSMCq3vQPyNg7Up5/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/hertech.jpg"
+  },
+  {
+    "title": "AI Fundamentals Trainings",
+    "slug": "ai-fundamentals-trainings",
+    "description": "Introduction to AI in everyday language, prompting techniques, social content creation, government schemes, application letters, and responsible AI use.",
+    "country": "India",
+    "language": null,
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "MSME employees",
+      "Service Sector Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ahmedabad",
+      "Delhi",
+      "Dimapur",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Session 1A",
+        "description": "Introducing AI in simple, everyday language, identifying unknowing AI use, building confidence."
+      },
+      {
+        "title": "Session 1B",
+        "description": "Introducing prompting concepts, practicing prompt improvement, generating usable business outputs."
+      },
+      {
+        "title": "Session 2A",
+        "description": "Using AI for social content, descriptions, messaging, and WhatsApp Business setup."
+      },
+      {
+        "title": "Session 3A",
+        "description": "Discovering government schemes and using AI to simplify legal/governmental language."
+      },
+      {
+        "title": "Session 3B",
+        "description": "Writing application letters and preparing supporting documents with AI assistance."
+      },
+      {
+        "title": "Session 4A",
+        "description": "Learning responsible AI use, data protection, and ethical considerations."
+      }
+    ],
+    "registrationUrl": "https://massentrepreneurship.org/ai-fundamentals-training/",
+    "materialsUrl": "https://drive.google.com/file/d/1ZjhImYFyQY2MAb_OxmNXIHkjeCJf5z68/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-fundamentals-trainings.jpg"
+  },
+  {
+    "title": "AI for Farmers Producers Organisations, Farmers and Agricultural Workers",
+    "slug": "ai-for-fpos-farmers-agricultural-workers",
+    "description": "Course teaching artificial intelligence concepts and practical applications for farmers, agricultural workers, and farmer producer organizations in India.",
+    "country": "India",
+    "language": null,
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "Farmers",
+      "Farmer Producer Organisations"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Araria",
+      "Bhagalpur",
+      "Darbhanga",
+      "East Champaran",
+      "Jamui",
+      "Katihar",
+      "Mujaffarpur",
+      "Nalanda",
+      "Nawada",
+      "Purnea",
+      "Sheikhpura",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Let's learn about artificial intelligence (AI)",
+        "description": "What is artificial intelligence and how farmers can effectively use AI in agriculture."
+      },
+      {
+        "title": "Increase agricultural productivity with AI tools",
+        "description": "How AI tools benefit agriculture and necessary precautions when using them."
+      },
+      {
+        "title": "How to give AI the right prompts",
+        "description": "Learn to ask effective questions to obtain accurate and useful AI-generated information."
+      },
+      {
+        "title": "Responsible use of AI",
+        "description": "Learn responsible and effective AI application in agricultural practices."
+      },
+      {
+        "title": "Actively using AI for greater profit in agriculture",
+        "description": "Understanding AI as intelligent systems that learn from experiences and provide guidance."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/fMtUckbSmbGzn9VD6",
+    "materialsUrl": "https://drive.google.com/file/d/1IuuOm4xrqZl-c74ZPmQVX4OO04xPYLoU/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-for-fpos-farmers-agricultural-workers.jpg"
+  },
+  {
+    "title": "AI Skills for Tomorrow's Educators",
+    "slug": "ai-skills-for-tomorrows-educators",
+    "description": "Explore foundational AI concepts and applications in education, maximize productivity with AI tools, discover advanced prompting techniques, use AI responsibly, and stay ahead of emerging trends.",
+    "country": "Thailand",
+    "language": [
+      "English",
+      "Vietnamese"
+    ],
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bac Ninh",
+      "Narathiswas",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explore foundational concepts and applications in education to build a strong AI knowledge base."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Discover effective digital tools for enhancing teaching efficiency and streamlining administrative tasks."
+      },
+      {
+        "title": "Discover the Art of Prompting",
+        "description": "Master advanced AI techniques for communication and effective prompting to enhance workflow."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Use AI to simplify legal and governmental requirements while adhering to ethical guidelines."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Discover emerging trends and learning strategies to stay ahead of the rapidly shifting AI landscape."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/fEYhfaTTgz2mCALw5",
+    "materialsUrl": "https://drive.google.com/file/d/1W_ka-6Wu2bHyzN77FS0BbCPajjyZw2Mz/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-skills-for-tomorrows-educators.webp"
+  },
+  {
+    "title": "AI Ignition Program",
+    "slug": "ai-ignition-program",
+    "description": "Training program covering AI fundamentals, productivity tools, prompt engineering, responsible AI, and generative AI with practical applications.",
+    "country": "Indonesia",
+    "language": null,
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Unemployed",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Kudus",
+      "Kuningan",
+      "Malang",
+      "Nganjuk",
+      "Sidoarjo",
+      "Solo",
+      "Sumedang",
+      "Tasikmalaya",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to Artificial Intelligence",
+        "description": "Fundamentals of AI, comparison of leading models, hands-on demo with emphasis on human oversight."
+      },
+      {
+        "title": "Maximizing Productivity with AI Tools",
+        "description": "Leverage Google Gemini features for workplace productivity and build simple automated workflows."
+      },
+      {
+        "title": "The Art of Prompt Engineering",
+        "description": "Design and refine AI prompts through structured thinking, technical parameters, and iterative experimentation."
+      },
+      {
+        "title": "Responsible Use of Artificial Intelligence",
+        "description": "Discuss AI ethics, Google's Responsible AI principles, and develop internal adoption policies."
+      },
+      {
+        "title": "Staying Ahead in AI Trends",
+        "description": "Strategies for continuous learning through trend analysis and personalized skill-development roadmaps."
+      },
+      {
+        "title": "Introduction to Generative AI",
+        "description": "Overview of generative AI technologies with creative content generation and copyright/misinformation ethics."
+      },
+      {
+        "title": "Understanding Large Language Models (LLMs)",
+        "description": "How transformer-based LLMs function, hallucination issues, and practice producing coherent long-form content."
+      },
+      {
+        "title": "Deep Dive into Responsible AI",
+        "description": "Explore Google's ethical AI business principles and develop actionable ethics implementation checklists."
+      },
+      {
+        "title": "Applying Responsible AI in Real-World Cases",
+        "description": "Apply responsible AI frameworks and prompt-engineering best practices to real-world scenarios."
+      }
+    ],
+    "registrationUrl": "https://kumpul.id/programs/registration-ai-ignition-training-program-2025/",
+    "materialsUrl": "https://drive.google.com/file/d/11OxWkEb9SMYNjZcOjVDMmrOEYpI9_ufj/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-ignition-program.jpg"
+  },
+  {
+    "title": "AI Literacy for All",
+    "slug": "ai-literacy-for-all",
+    "description": "Foundational AI course providing understanding of AI concepts, types, impact, practical tools, prompt engineering, responsible AI usage, and strategies to compete in an AI-driven world.",
+    "country": "Sri Lanka",
+    "language": [
+      "English",
+      "Sinhala",
+      "Tamil"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Vocational School Students",
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Anuradhapura",
+      "Kandy",
+      "Kurunegala",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Foundational understanding of AI concepts, different types, and potential impact for grasping fundamentals necessary for subsequent learning."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Application of AI focusing on mechanism and usage of practical AI tools to maximize efficiency in daily work and creative activities."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Practical skill of creating precise and powerful prompts to communicate optimally with AI tools for desired, high-quality results."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Understanding ethics and limitations involved in using AI technology while maintaining professional and social standards."
+      },
+      {
+        "title": "Stay Ahead of the Curve",
+        "description": "Tips, mindset, and strategies to ensure preparedness to compete and excel in an increasingly AI-driven world."
+      }
+    ],
+    "registrationUrl": "http://www.ai4all.aisrilanka.org/",
+    "materialsUrl": "https://drive.google.com/file/d/1197pZxXvi5AZFoXeqiZMOB2CLMjpGRi7/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-literacy-for-all.webp"
+  },
+  {
+    "title": "AI Udaan",
+    "slug": "ai-udaan",
+    "description": "Harnessing the Power of Generative AI for Teachers, Students & Entrepreneurs",
+    "country": "India",
+    "language": [
+      "English",
+      "Hindi",
+      "Tamil"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Other Industry Workers",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1 & 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Delhi",
+      "Haryana",
+      "Karnal",
+      "Karnataka",
+      "Mumbai",
+      "Nagpur",
+      "Pune",
+      "Bengaluru",
+      "Kolkata",
+      "Puducherry",
+      "West Bengal",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Gateway to AI Udaan defining AI, exploring history using everyday examples. Introduces mechanics, capabilities/limitations, and role of human oversight."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Teaches participants to use Generative AI tools for academic tasks, from research to summarization, boosting learning and career preparation."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Teaches crucial skill of creating clear, specific prompts through hands-on exercises and advanced techniques like few-shot prompting."
+      },
+      {
+        "title": "Use AI Responsibility",
+        "description": "Explores data bias, algorithmic bias, AI hallucinations and deepfakes, teaching critical evaluation and safeguarding private information."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Synthesizes skills, focusing on strategies to stay updated on AI's evolution and leveraging tools for innovation and problem-solving."
+      }
+    ],
+    "registrationUrl": "https://forms.office.com/pages/responsepage.aspx?id=J6ez9DhDcEWDP0WJIAle9bpRN5GWkTZMiPg2kvn4wJ5UQk5LVTVHN0FGVVdGMVhEVjdBRkdUNTJFRi4u",
+    "materialsUrl": "https://drive.google.com/file/d/1vPS_H24Gno9YirN048vgPObvN2ROPf3q/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-udaan.jpg"
+  },
+  {
+    "title": "Digital Skills - AI Literacy",
+    "slug": "digital-skills-ai-literacy",
+    "description": "Learn the basics of AI and Gen AI, find information using AI, apply for jobs with AI assistance, and understand AI safety and ethics.",
+    "country": "New Zealand",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "Healthcare Related Workers",
+      "Service Sector Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Auckland",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Intro to AI",
+        "description": "Learn the basics of AI and Gen AI and set up the Gemini app."
+      },
+      {
+        "title": "Finding information, learning, and images",
+        "description": "Use AI to find information, help with learning and study, create images, and write prompts."
+      },
+      {
+        "title": "Applying for jobs",
+        "description": "Leverage AI at every stage of the job cycle, from exploring pathways to interviews."
+      },
+      {
+        "title": "AI, safety, and ethics",
+        "description": "Understand AI risks, review privacy settings, and learn about ethical considerations."
+      }
+    ],
+    "registrationUrl": "https://literacywaitakere.org.nz/pages/ai-literacy",
+    "materialsUrl": "https://drive.google.com/file/d/1NJrbFCBpLRadicOWUK93MhK3VIlIW9SO/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/digital-skills-ai-literacy.webp"
+  },
+  {
+    "title": "AI Goes To School",
+    "slug": "ai-goes-to-school",
+    "description": "Learn to craft effective prompts and use AI to develop engaging teaching materials, manage classrooms, and automate administrative tasks.",
+    "country": "Indonesia",
+    "language": [
+      "Indonesian"
+    ],
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Aceh",
+      "Bali",
+      "Bandung",
+      "Bangka Belitung",
+      "Banjarmasin",
+      "Banten",
+      "Banyuwangi",
+      "Bekasi",
+      "Bengkulu",
+      "Bogor",
+      "DKI Jakarta",
+      "Jayapura",
+      "Jombang",
+      "Kalimantan Utara",
+      "Kendari",
+      "Kupang",
+      "Lampung",
+      "Magelang",
+      "Makassar",
+      "Malang",
+      "Maluku",
+      "Maluku Utara",
+      "Manado",
+      "Mataram",
+      "Maumere",
+      "Mojokerto",
+      "Padang",
+      "Pontianak",
+      "Purworejo",
+      "Salatiga",
+      "Samarinda",
+      "Semarang (Central Java)",
+      "Sidoarjo",
+      "Solo",
+      "Sorong",
+      "Sulawesi Barat",
+      "Surabaya (East Java)",
+      "Virtual",
+      "Wonogiri",
+      "Wonosobo",
+      "Yogyakarta"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Understand what AI is, how it works, and real-world applications in education\u2014no technical background required."
+      },
+      {
+        "title": "AI Ethics",
+        "description": "Explore bias, privacy, and responsible use of AI in schools for safe, fair, and transparent practices."
+      },
+      {
+        "title": "Prompt Management",
+        "description": "Learn to craft effective prompts that generate accurate, relevant, and creative outputs from AI tools."
+      },
+      {
+        "title": "Creative AI for Lesson Design",
+        "description": "Use AI to develop engaging, differentiated, curriculum-aligned teaching materials in minutes."
+      },
+      {
+        "title": "AI for Classroom Management",
+        "description": "Leverage AI to streamline attendance, behavior tracking, communication, and student feedback."
+      },
+      {
+        "title": "AI for Administration",
+        "description": "Automate routine tasks like report writing, scheduling, and data entry to reduce workload."
+      }
+    ],
+    "registrationUrl": "https://institute.mafindo.or.id/ai-goes-to-school/",
+    "materialsUrl": "https://drive.google.com/file/d/1vFlbiP1D6Zp_aPUfPRewNLvpcKaMxyEW/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-goes-to-school.webp"
+  },
+  {
+    "title": "Emplify with AI",
+    "slug": "emplify-with-ai",
+    "description": "Understanding AI and its applications in learning, career development, and workplace readiness for vocational students.",
+    "country": "India",
+    "language": [
+      "English",
+      "Hindi"
+    ],
+    "targetAudience": [
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bihar",
+      "Haryana",
+      "Uttar Pradesh",
+      "Uttarakhand",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "What is AI",
+        "description": "Foundational module explaining AI fundamentals, differences between traditional and generative AI, and sectoral applications."
+      },
+      {
+        "title": "How To Talk To AI",
+        "description": "Key elements of effective AI interaction, including prompt creation, contextualisation, and communication strategies."
+      },
+      {
+        "title": "AI for Learning and Career",
+        "description": "Four segments: career exploration, skill development, job search preparation, and workplace readiness."
+      },
+      {
+        "title": "Using AI responsibly",
+        "description": "Ethical considerations and responsible AI usage practices."
+      }
+    ],
+    "registrationUrl": "https://learn.medha.org.in/courses/emplifywithai",
+    "materialsUrl": "https://drive.google.com/file/d/1zNaFQ6oObPEPWr9DSSRH01CHyk7hlNPw/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/emplify-with-ai.jpg"
+  },
+  {
+    "title": "AI4U",
+    "slug": "ai4u",
+    "description": "Introduces foundational AI concepts and demystifies the technology in accessible, relatable ways to reduce fear and hesitation among participants.",
+    "country": "Malaysia",
+    "language": [
+      "English",
+      "Malay",
+      "Chinese"
+    ],
+    "targetAudience": [
+      "Healthcare Related Workers",
+      "MSME employees",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Jawa Barat",
+      "Jawa Timur",
+      "Kuala Lumpur",
+      "Penang",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Basic AI",
+        "description": "Introduces foundational AI concepts and demystifies the technology in accessible, relatable ways to reduce fear and hesitation among participants."
+      },
+      {
+        "title": "Generative AI",
+        "description": "Covers the concepts and applications of AI that creates something new, such as content, text, or images, with a focus on practical use."
+      },
+      {
+        "title": "Responsible AI",
+        "description": "Explores the ethical considerations of AI use, including bias, data privacy, and the need for human oversight to ensure trustworthy and equitable applications."
+      },
+      {
+        "title": "Hands-on and Practical Use Case & Tool Integration",
+        "description": "Practical sessions where participants work directly with applicable digital platforms, project management systems, or business tools to reinforce immediate usability."
+      }
+    ],
+    "registrationUrl": "https://corporate.mereka.io/ai4u",
+    "materialsUrl": "https://drive.google.com/file/d/13tnhNxalTz7j_Y8diLmBn79OyiFjCS_v/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai4u.webp"
+  },
+  {
+    "title": "AI Education Promotion Laboratory",
+    "slug": "ai-education-promotion-laboratory",
+    "description": "Explore AI mechanisms and gain understanding of fundamental principles including machine learning, generative AI, and applications. Learn to evaluate AI suitability and use responsibly.",
+    "country": "Taiwan",
+    "language": [
+      "Chinese",
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Tainan",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Understand AI fundamentals, machine learning, generative AI, and its applications with insights into potential and limitations."
+      },
+      {
+        "title": "Maximize productivity with AI Tools",
+        "description": "Improve work efficiency using generative AI tools and learn to evaluate task suitability for AI integration."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Write effective instructions for AI tools, apply prompting methods, and evaluate results before practical application."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Address bias and inaccuracies in AI use, implement risk mitigation frameworks, and identify security threats."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Enhance skills continuously and learn organizational AI applications to inspire workplace innovation."
+      }
+    ],
+    "registrationUrl": "https://flannel-tarragon-677.notion.site/1b5d681964f68080bd98efc756887517",
+    "materialsUrl": "https://drive.google.com/file/d/1H49ylj8G4o_3uXz0ODnEvayqJKrvf9BY/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-education-promotion-laboratory.webp"
+  },
+  {
+    "title": "AI Training",
+    "slug": "ai-training-navgurukul-foundation",
+    "description": "Introduction to AI concepts covering types, applications, prompting basics, and practical uses in daily life, productivity, learning, content creation, and career planning.",
+    "country": "India",
+    "language": [
+      "Hindi",
+      "English",
+      "Tamil"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bangalore",
+      "Bihar",
+      "Chhattisgarh",
+      "Gujarat",
+      "Himachal Pradesh",
+      "Maharashtra Bengaluru",
+      "Tamil Nadu",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "What is AI and Where do you See it?",
+        "description": "Introduction to AI concepts, types, and common examples found in daily life."
+      },
+      {
+        "title": "How to Talk to AI: Prompting Basics",
+        "description": "Learn to communicate effectively with AI using prompts for better results."
+      },
+      {
+        "title": "How does AI work?",
+        "description": "Explore AI fundamentals, processes, and data understanding."
+      },
+      {
+        "title": "Let's Chat with AI!",
+        "description": "Hands-on practice with AI tools and solving real-world problems."
+      },
+      {
+        "title": "AI for Everyday Life Tasks",
+        "description": "Apply AI tools to simplify personal daily life tasks."
+      },
+      {
+        "title": "AI for Productivity at Work",
+        "description": "Use AI to enhance efficiency and achieve professional goals."
+      },
+      {
+        "title": "AI for Learning and Studying",
+        "description": "Explore AI tools to organize learning for better educational outcomes."
+      },
+      {
+        "title": "AI for Content Creation",
+        "description": "Master creating images, text, and multimedia using AI tools."
+      },
+      {
+        "title": "AI for Career Discovery & Planning",
+        "description": "Explore career options and plan pathways with AI guidance."
+      },
+      {
+        "title": "Responsible AI Use: Ethics & Privacy",
+        "description": "Understand ethical considerations, bias, and data privacy in AI."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd_um_qT6KF3MaQRp560F5PGfAx7jGERjKW8wx3VTYmY0HWZw/viewform",
+    "materialsUrl": "https://drive.google.com/file/d/1GmukGttZkA1jpez1OmXNKwRbBTULnS8H/view",
+    "heroImageUrl": "/images/courses/ai-training-navgurukul-foundation.webp"
+  },
+  {
+    "title": "AI for Digital Readiness and Advancement (ADiRA)",
+    "slug": "ai-for-digital-readiness-and-advancement-adira",
+    "description": "Understanding the fundamentals of Artificial Intelligence and its growing impact across sectors such as healthcare, media, and beyond.",
+    "country": "India",
+    "language": [
+      "Hindi",
+      "Tamil",
+      "Telugu",
+      "Kannada",
+      "Malayalam",
+      "Marathi",
+      "Gujarati"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Healthcare Related Workers",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ahmedabad",
+      "Amravati",
+      "Amritsar",
+      "Aurangabad",
+      "Bengaluru",
+      "Bhopal",
+      "Chennai",
+      "Delhi",
+      "Hyderabad",
+      "Jaipur",
+      "Kolkata",
+      "Mumbai",
+      "Pune",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to Artificial Intelligence (AI)",
+        "description": "Understanding the fundamentals of Artificial Intelligence and its growing impact across sectors such as healthcare, media, and beyond."
+      },
+      {
+        "title": "Unlocking Generative AI: Understanding LLMs and Prompt Engineering",
+        "description": "Learning how generative AI creates content and mastering effective prompting skills for better results."
+      },
+      {
+        "title": "Gen AI Tools & Applications",
+        "description": "Exploring practical AI tools and their real-world use in journalism, content creation, and healthcare practices."
+      },
+      {
+        "title": "Responsible Use of AI: AI Ethics & Risk Management",
+        "description": "Addressing ethical considerations, tackling misinformation, and ensuring responsible and transparent AI adoption."
+      },
+      {
+        "title": "Elevating AI Knowledge",
+        "description": "Showcasing real-life examples of AI in action and how professionals across sectors can integrate AI into their daily work."
+      }
+    ],
+    "registrationUrl": "https://dataleadsacademy.com/adira",
+    "materialsUrl": "https://drive.google.com/file/d/1FCGIgTdQPZx3E-0pUfpsDnNACgd1Owy9/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-for-digital-readiness-and-advancement-adira.jpg"
+  },
+  {
+    "title": "AI for Empowerment",
+    "slug": "ai-for-empowerment",
+    "description": "Explore fundamentals of AI, NLP, ML, DL, and Generative AI with practical applications for daily use and livelihoods",
+    "country": "India",
+    "language": [
+      "Tamil"
+    ],
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "College/University Students",
+      "Non-profit Sector Workers",
+      "Unemployed"
+    ],
+    "format": "In Person",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Coastal Districts of Tamil Nadu",
+      "Keelakarai",
+      "Ramanathapuram",
+      "Thoothukudi",
+      "Villages across Ramanathapuram"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explore the fundamentals of AI, NLP, ML, DL, Generative AI and their daily uses"
+      },
+      {
+        "title": "Talking to AI",
+        "description": "Discover how to talk to AI through learning effective prompts and chatbot use"
+      },
+      {
+        "title": "Seeing with AI",
+        "description": "Discover the benefits of Google Lens and other lens tools to translate text, identify objects, and simplify research"
+      },
+      {
+        "title": "Planning with AI",
+        "description": "Apply AI for problem-solving and decision-making to simplify planning and make informed choices"
+      },
+      {
+        "title": "AI for Livelihoods",
+        "description": "Leverage AI for job search, resumes, and continuous learning to unlock new livelihoods and career opportunities"
+      },
+      {
+        "title": "Ethics & Safety",
+        "description": "Master responsible and secure AI use by understanding ethical guidelines and essential safety practices"
+      }
+    ],
+    "registrationUrl": "https://www.padgom.org/ai-for-social-impact",
+    "materialsUrl": "https://drive.google.com/file/d/1UZuAAnPREt1rMZAHJHWHrBHGiIFaQDDz/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-for-empowerment.webp"
+  },
+  {
+    "title": "Safe, Effective, and Responsible AI",
+    "slug": "safe-effective-and-responsible-ai",
+    "description": "Understand where AI sits across spheres of work in the development sector and gain an overview of AI, including generative AI, prompt engineering, risks, and responsible AI practices.",
+    "country": "Australia",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "Non-profit Sector Workers"
+    ],
+    "format": "Online",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI and Learning the Essentials",
+        "description": "Understand where AI sits across spheres of work in the development sector and gain an overview of AI."
+      },
+      {
+        "title": "Maximising Productivity, Prompt Engineering, and Retrieval-Augmented Generation",
+        "description": "Understand the basics of generative AI and RAG, potential applications in different sectors and workplaces, and prompt engineering principles and categories."
+      },
+      {
+        "title": "Risks and Responsible AI",
+        "description": "Recognise the risks and limitations of AI, particularly privacy concerns, shadow AI, and hallucinations."
+      },
+      {
+        "title": "Staying Ahead of the Curve",
+        "description": "Learn ways and get additional resources to stay ahead with developments surrounding AI and how these might impact different lives and areas of work."
+      }
+    ],
+    "registrationUrl": "https://forms.monday.com/forms/f4689f775d83c6b1c4a370d7e07b5057?r=use1",
+    "materialsUrl": "https://drive.google.com/file/d/1m25zvKVlneKipldn7DdQTIYrbmalawhc/view?usp=sharing",
+    "heroImageUrl": "/images/courses/safe-effective-and-responsible-ai.webp"
+  },
+  {
+    "title": "Maju Bareng AI",
+    "slug": "maju-bareng-ai",
+    "description": "Program empowering developers, MSMEs, and teachers with AI skills through practical activities and various AI tools",
+    "country": "Indonesia",
+    "language": [
+      "Indonesian"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "MSME employees"
+    ],
+    "format": "Online",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1 & 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Central Java",
+      "DKI Jakarta",
+      "West Java"
+    ],
+    "modules": [
+      {
+        "title": "AI for IT Developers (Software Development)",
+        "description": "Enhances productivity using AI tools, master prompt engineering, and build AI-driven websites"
+      },
+      {
+        "title": "AI for MSMEs",
+        "description": "Empowers MSMEs with AI skills for prompting, content creation, data analysis, and business strategy"
+      },
+      {
+        "title": "AI for Teachers",
+        "description": "Equips teachers to integrate AI into teaching for enhanced efficiency and instructional effectiveness"
+      }
+    ],
+    "registrationUrl": "https://www.hacktiv8.com/projects/avpn-asia",
+    "materialsUrl": "https://drive.google.com/file/d/10nq5caEdD1jPGQad3zWiB0xscAVO7Ok7/view?usp=sharing",
+    "heroImageUrl": "/images/courses/maju-bareng-ai.webp"
+  },
+  {
+    "title": "Remote Skills AI Upskilling Program",
+    "slug": "remote-skills-ai-upskilling-program",
+    "description": "Participants learn basic AI concepts, how it works, real-world applications, prompting techniques, generative AI systems, and responsible AI development with emphasis on fairness, transparency, and ethical implementation.",
+    "country": "Indonesia",
+    "language": [
+      "Indonesian"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Service Sector Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bali",
+      "Bandung",
+      "Banten",
+      "Banyuwangi",
+      "Bogor",
+      "DKI Jakarta",
+      "Malang",
+      "Nusa Tenggara Barat",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "The Fundamentals of AI",
+        "description": "Covers basic AI concepts, how it works, real-world applications, prompting techniques, and guided exercises for hands-on understanding."
+      },
+      {
+        "title": "Generative AI",
+        "description": "Explores how AI creates content such as text, images, audio, and video using deep learning models, identifying patterns to generate outputs."
+      },
+      {
+        "title": "Responsible AI",
+        "description": "Focuses on ethical development and application emphasizing fairness, transparency, accountability, privacy, and safety to ensure societal benefits."
+      }
+    ],
+    "registrationUrl": "https://aiopportunity.mounev.com/",
+    "materialsUrl": "https://drive.google.com/file/d/1LKUpWI0JH3jJ5xDD_BUtfgwZvAAFs9jo/view?usp=sharing",
+    "heroImageUrl": "/images/courses/remote-skills-ai-upskilling-program.jpg"
+  },
+  {
+    "title": "AI and Digital Skills Training",
+    "slug": "ai-and-digital-skills-training",
+    "description": "Introduces fundamental AI concepts, generative AI tools, practical applications across industries, ethical considerations, and continuous learning opportunities.",
+    "country": "India",
+    "language": [
+      "English",
+      "Hindi",
+      "Marathi",
+      "Tamil"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Healthcare Related Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Aurangabad",
+      "Bengaluru",
+      "Chennai",
+      "Dehradun",
+      "Garhwal",
+      "Haridwar",
+      "Pune",
+      "Raichur",
+      "Tehri",
+      "Villupuram",
+      "Virtual",
+      "Yadgir"
+    ],
+    "modules": [
+      {
+        "title": "AI Basics",
+        "description": "Introduces fundamental concepts of artificial intelligence, key terminology, and common applications."
+      },
+      {
+        "title": "Gen AI and Prompting Techniques",
+        "description": "Covers generative AI tools and teaches practical prompt engineering for efficient communication, content creation, and automation."
+      },
+      {
+        "title": "AI Tools and Applications",
+        "description": "Focuses on popular AI tools, real-world use cases, and hands-on exercises across industry functions."
+      },
+      {
+        "title": "AI Ethics and Risk Management",
+        "description": "Examines responsible AI use, privacy, security, and bias in deploying AI solutions."
+      },
+      {
+        "title": "Elevating AI Knowledge",
+        "description": "Encourages continuous learning and staying updated on emerging AI technologies and best practices."
+      }
+    ],
+    "registrationUrl": "https://thesahi.co.in/?campaignId=08de0b2032beed88f79d8d79",
+    "materialsUrl": "https://drive.google.com/file/d/1LzRn9A1TsKGtccmIUN_k9qQhnC9HAc_p/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-and-digital-skills-training.jpg"
+  },
+  {
+    "title": "AI Upskilling Programme for Grassroots Workers in India",
+    "slug": "ai-upskilling-programme-for-grassroots-workers-in-india",
+    "description": "Programme designed to equip grassroots workers with AI skills relevant to farming, healthcare, and education sectors through practical, accessible training.",
+    "country": "India",
+    "language": [
+      "Hindi",
+      "Marathi",
+      "Gujarati",
+      "Telugu"
+    ],
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "Healthcare Related Workers",
+      "Non-profit Sector Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Banswara",
+      "Baran",
+      "Dungarpur",
+      "Pratapgarh",
+      "Sirohi",
+      "Udaipur",
+      "Varanasi",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "What is AI and Why Should You Care?",
+        "description": "Discover how AI simplifies tasks like farming, healthcare, and education and why AI skills can open livelihood opportunities."
+      },
+      {
+        "title": "How Do Machines Learn?",
+        "description": "Understand how machines use data to learn tasks, comparing AI learning with human learning through practical examples."
+      },
+      {
+        "title": "AI vs. Human Intelligence: What's the Difference?",
+        "description": "Learn how AI processes patterns differently from humans, with applications in crop disease detection and work support."
+      },
+      {
+        "title": "AI Around You: From Phones to Fields",
+        "description": "Explore AI applications in smartphones, farming tools, and local businesses to increase agricultural yields."
+      },
+      {
+        "title": "How to Ask AI the Right Questions - The Art of Prompting",
+        "description": "Master crafting clear, specific questions to get useful AI responses for work or studies through practical exercises."
+      },
+      {
+        "title": "Staying Safe with AI: Privacy and Misinformation",
+        "description": "Learn to protect personal information and identify false information for safe AI usage."
+      },
+      {
+        "title": "Creating Emails and Downloading Apps",
+        "description": "Create professional emails to connect with markets or government schemes and download trusted AI applications."
+      },
+      {
+        "title": "Talking to AI: How to Use Voice Assistants",
+        "description": "Use voice assistants to get quick answers on farming, health, or education through simple voice commands."
+      },
+      {
+        "title": "Using AI for Translation and Local Language Support",
+        "description": "Translate documents and instructions into different languages using AI tools to bridge communication gaps."
+      },
+      {
+        "title": "Finding the Best AI App for Your Need",
+        "description": "Identify and evaluate AI applications for tasks like crop care or market research that fit specific goals."
+      },
+      {
+        "title": "Selling Smarter: AI for Pricing, Markets, and Product Advice",
+        "description": "Use AI to set fair prices, find better markets for crops or products, and receive tailored business advice."
+      },
+      {
+        "title": "Digital Marketing for Agri-Entrepreneurs with AI",
+        "description": "Promote farm products online using AI-driven marketing tools and business platforms to reach customers."
+      },
+      {
+        "title": "Using AI to Manage Group Records and Accounts (SHGs)",
+        "description": "Simplify self-help group record-keeping and financial tracking with AI tools to improve transparency."
+      },
+      {
+        "title": "Using WhatsApp Business",
+        "description": "Set up WhatsApp Business to connect with customers and use AI features to automate replies."
+      },
+      {
+        "title": "Safe Sharing: What Not to Tell AI",
+        "description": "Learn which details to share with AI to protect personal data and understand associated security risks."
+      },
+      {
+        "title": "Can Our Children Learn with AI?",
+        "description": "Explore AI tools that help children with homework and skill-building while guiding safe educational use."
+      },
+      {
+        "title": "How Could AI Change a Village in the Next 5 Years?",
+        "description": "Envision AI's potential improvements to farming, healthcare, and education in local villages."
+      }
+    ],
+    "registrationUrl": "https://tinyurl.com/SehajAI",
+    "materialsUrl": "https://drive.google.com/file/d/1zfCEdiiFI2Ac7c_Z-OQ1Dc1yMrMNNfks/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-upskilling-programme-for-grassroots-workers-in-india.webp"
+  },
+  {
+    "title": "Project SAATHI - Smart AI Adoption for Technology & Holistic Inclusion",
+    "slug": "project-saathi-smart-ai-adoption-for-technology-holistic-inclusion",
+    "description": "An introduction to practical AI tools helping farmers improve productivity, decision-making, and climate resilience, combined with modules on AI for business growth and job readiness.",
+    "country": "India",
+    "language": [
+      "Hindi"
+    ],
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "MSME employees",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Barwani",
+      "Gazipur",
+      "Jhabua",
+      "Mirzapur",
+      "Palamu",
+      "Rajgarh",
+      "Varanasi",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Smart Farming with AI: Tools for the Next-Gen Farmer",
+        "description": "An introduction to practical AI tools that help farmers improve productivity, decision-making, and climate resilience across the agricultural value chain."
+      },
+      {
+        "title": "AI for Business Growth: Smarter MSMEs through Technology",
+        "description": "This module explores how MSMEs can use AI applications to enhance operations, marketing, financial planning, and overall business efficiency."
+      },
+      {
+        "title": "Ready for Work: Using AI for Job Search & Skilling",
+        "description": "A hands-on module focused on leveraging AI tools for job discovery, resume building, interview preparation, and continuous skill development."
+      }
+    ],
+    "registrationUrl": "https://samunnatifoundation.org/projects/",
+    "materialsUrl": "https://drive.google.com/file/d/1lrl8iqhGX-FVAewpWz71XrNYqz5wGsEl/view?usp=sharing",
+    "heroImageUrl": "/images/courses/project-saathi-smart-ai-adoption-for-technology-holistic-inclusion.jpg"
+  },
+  {
+    "title": "AI Training",
+    "slug": "ai-training-seeds",
+    "description": "Teaches effective communication with AI systems through prompt engineering and explores popular AI platforms with practical business applications.",
+    "country": "India",
+    "language": [
+      "English",
+      "Hindi"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Baramulla",
+      "Bokaro",
+      "Chindwara",
+      "Dhanbad",
+      "Durg",
+      "East Simghbhum",
+      "Gorakhpur",
+      "Howrah",
+      "Korba",
+      "Lucknow",
+      "Nadia",
+      "North Delhi",
+      "Okhla",
+      "Patna",
+      "Purulia",
+      "Saran",
+      "South Delhi",
+      "Srinagar",
+      "Virtual",
+      "West Bardhaman"
+    ],
+    "modules": [
+      {
+        "title": "Bridge Module",
+        "description": "Establishes foundational knowledge and prepares learners for AI concepts covering prerequisite technical terminology and essential background."
+      },
+      {
+        "title": "AI Basics",
+        "description": "Introduces core artificial intelligence concepts, including machine learning fundamentals, neural networks, and key AI terminology."
+      },
+      {
+        "title": "General AI and Prompting Techniques",
+        "description": "Teaches effective communication with AI systems through prompt engineering and best practices for crafting clear instructions."
+      },
+      {
+        "title": "AI Tools and their applications",
+        "description": "Explores popular AI platforms and their practical business applications with hands-on tool implementation strategies."
+      },
+      {
+        "title": "AI Ethics and Risk Management",
+        "description": "Addresses responsible AI deployment, including bias mitigation, privacy concerns, and regulatory compliance frameworks."
+      }
+    ],
+    "registrationUrl": "https://forms.office.com/pages/responsepage.aspx?id=FzryEA5bVUG9xNWGDFX2jfYmrPCWouRHlE2KS6o9Ye1UQ1FUU0NMUjE3SjJDWUdWS0tSVkY5TDlNMS4u&route=shorturl",
+    "materialsUrl": "https://drive.google.com/file/d/1zI6L997nA_n5BsAYTHs0PBA3uekxd0-r/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-training-seeds.jpg"
+  },
+  {
+    "title": "AI Initiative Project",
+    "slug": "ai-initiative-project",
+    "description": "A comprehensive AI training program covering fundamentals, generative AI, prompt engineering, productivity tools, and ethical considerations for education sector workers.",
+    "country": "India",
+    "language": [
+      "Hindi",
+      "English"
+    ],
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ambala",
+      "Bhiwani",
+      "Charkhi Dadri",
+      "Faridabad",
+      "Fatehabad",
+      "Hisar",
+      "Jhajjar",
+      "Jind",
+      "Kaithal",
+      "Karnal",
+      "Kurukshetra",
+      "Mahendragarh",
+      "Nuh",
+      "Palwal",
+      "Panchkula",
+      "Panipat",
+      "Rewari",
+      "Rohtak",
+      "Sirsa",
+      "Sonipat",
+      "Virtual",
+      "Yamunanagar"
+    ],
+    "modules": [
+      {
+        "title": "Introduction & AI Fundamentals",
+        "description": "Course overview, group norms, core AI concepts including AI vs. ML with pre-test and foundational activities."
+      },
+      {
+        "title": "Generative AI & Prompt Engineering",
+        "description": "Generative AI focus with prompt engineering techniques and hands-on exercises using popular AI tools."
+      },
+      {
+        "title": "AI Tools for Productivity & Creativity",
+        "description": "AI tools for boosting productivity and creative content generation with educator-specific applications."
+      },
+      {
+        "title": "AI in Education & Productivity Enhancement",
+        "description": "AI's transformative impact on education aligned with National Education Policy plus practical productivity tools."
+      },
+      {
+        "title": "AI Ethics, Privacy & Responsible Use",
+        "description": "Ethical challenges, privacy, security concerns with case evaluation, post-test, and certification."
+      }
+    ],
+    "registrationUrl": "https://prashikshakharyana.org/",
+    "materialsUrl": "https://drive.google.com/file/d/1lKwzlsOgFDdXx6Cq18tHkqGSZPmtM3aD/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-initiative-project.jpg"
+  },
+  {
+    "title": "Tictag AI Training",
+    "slug": "tictag-ai-training",
+    "description": "AI training program covering introduction to AI, productivity tools, prompt engineering, ethics, and staying current with AI developments",
+    "country": "Singapore",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "Other Industry Workers",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Singapore",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI \u2013 What Is AI, Really?",
+        "description": "Understand what AI is, how it works, and how it impacts the world."
+      },
+      {
+        "title": "Maximise Productivity with AI Tools \u2013 AI as Your Assistant",
+        "description": "Learn to use common AI-powered tools for everyday tasks, from writing to scheduling."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering \u2013 Get the Best Out of AI",
+        "description": "Develop skills in communicating effectively with AI tools to get optimal results."
+      },
+      {
+        "title": "Use AI Responsibly \u2013 AI Ethics",
+        "description": "Explore the ethical implications of AI and how to use it with integrity and awareness."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Keeping Informed as AI Evolves."
+      }
+    ],
+    "registrationUrl": "https://calendly.com/sara-tictag/30min",
+    "materialsUrl": "https://drive.google.com/file/d/1ww5NI6SYnNjXv-Xj_he8pZnmzCzexM4v/view?usp=sharing",
+    "heroImageUrl": "/images/courses/tictag-ai-training.jpg"
+  },
+  {
+    "title": "AI Training Programme",
+    "slug": "ai-training-programme",
+    "description": "A comprehensive training program covering AI fundamentals, generative AI applications, responsible AI use, and real-world implementations across sectors.",
+    "country": "India",
+    "language": [
+      "English",
+      "Hindi"
+    ],
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "Non-profit Sector Workers",
+      "Other Industry Workers",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ahilyanager",
+      "Newasa",
+      "Pune",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Fundamentals",
+        "description": "Introduction to basic concepts of AI, its mechanisms, and daily/work impact"
+      },
+      {
+        "title": "GenAI Fundamentals and Application",
+        "description": "Understanding generative AI tools for content creation, problem-solving, and innovation"
+      },
+      {
+        "title": "Responsible AI Use",
+        "description": "Ethical and safe AI usage emphasizing fairness, privacy, and trustworthy technology"
+      },
+      {
+        "title": "Real-World AI Applications",
+        "description": "Practical examples of AI across agriculture, industry, education, and entrepreneurship"
+      }
+    ],
+    "registrationUrl": "https://tisser.in/projects/ai-opportunity-fund-asia-pacific-empowering-the-workforce-in-the-age-of-ai/",
+    "materialsUrl": "https://drive.google.com/file/d/1ZcXLmEHgV__a_HX5oCwxDGyxLZYScF9A/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-training-programme.jpg"
+  },
+  {
+    "title": "Urdu AI",
+    "slug": "urdu-ai",
+    "description": "Community of 1M+ Urdu AI learners offering training in AI basics, digital literacy, and Urdu-language AI tools.",
+    "country": "Pakistan",
+    "language": [
+      "Urdu"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Unemployed",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 1 & 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Islamabad",
+      "Karachi",
+      "Lahore",
+      "Lasbela",
+      "Quetta",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI and Digital Literacy",
+        "description": "Basics of AI, its role in daily life, and understanding digital tools safely."
+      },
+      {
+        "title": "AI for Learning and Productivity",
+        "description": "Using AI-powered platforms for education, research, and communication."
+      },
+      {
+        "title": "Ethical AI and Social Impact",
+        "description": "Understanding responsible AI use, bias, and community applications."
+      },
+      {
+        "title": "AI in Local Context (Urdu AI Tools)",
+        "description": "Exploring Urdu-language AI tools and local case studies."
+      },
+      {
+        "title": "AI for Youth Innovation",
+        "description": "Practical exercises in designing solutions for social or educational challenges."
+      }
+    ],
+    "registrationUrl": "https://impact.urduai.org/",
+    "materialsUrl": "https://drive.google.com/file/d/1VZi_--FopaVZFRLICK1Ab6kukmOS-MZn/view?usp=sharing",
+    "heroImageUrl": "/images/courses/urdu-ai.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Training",
+    "slug": "ai-training-anudip-foundation",
+    "description": "Learn how AI works, maximize productivity with AI tools, master prompt engineering, use AI responsibly, and stay ahead of the AI revolution.",
+    "country": "India",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Learn how AI works and its basic principles, including machine learning. Understand the potential and limitations of AI tools."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Use generative AI tools to make work more efficient. Learn to assess whether AI is suitable for a particular task."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Create effective commands to get desired results. Learn prompting methods and how to generate outputs that simplify task completion."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Learn how to use AI ethically by addressing bias and inaccuracies. Implement an AI harm prevention framework in your workplace."
+      },
+      {
+        "title": "Stay Ahead of the AI Revolution",
+        "description": "Hone your skills in the continuously developing field of AI. Develop a strategy to keep up with AI developments."
+      }
+    ],
+    "registrationUrl": "https://avpn.anudip.org/index.html",
+    "materialsUrl": "https://drive.google.com/file/d/1EgyWFFclOYe9w2jPA__2BzWFeFgMIZ4y/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-training-anudip-foundation.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI Training",
+    "slug": "ai-training-wadhwani-ai",
+    "description": "A thorough introduction to Artificial Intelligence and Machine Learning, exploring their distinctions, interconnections, and real-world applications with emphasis on responsible AI development.",
+    "country": "India",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Thorough introduction to Artificial Intelligence (AI) and Machine Learning (ML), focusing on distinctions, interconnections, and applications."
+      },
+      {
+        "title": "Maximising Productivity with AI Tools",
+        "description": "Explores the functionality, applications, and tools of generative AI, as well as its real-world implementation."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Examines prompt engineering as an essential skill for effectively interacting with AI models."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Emphasizes the responsible development of AI, incorporating principles of fairness, accountability, safety, and privacy."
+      },
+      {
+        "title": "Stay ahead of the AI Curve",
+        "description": "Examines the integration of AI, emphasizing education, practical experience, and a continuous learning mindset."
+      }
+    ],
+    "registrationUrl": "https://aiopportunity.wadhwaniai.org/",
+    "materialsUrl": "https://drive.google.com/file/d/1Y0EeXtN_IBqzJcTHJCHwjPqVR1KMzOO-/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-training-wadhwani-ai.jpg"
+  },
+  {
+    "title": "[Train-the-Trainer Programme] AI For All",
+    "slug": "ai-for-all-taiwan-ai-academy",
+    "description": "Explore AI fundamentals, maximize productivity with generative AI tools, master prompt engineering, use AI responsibly, and stay current with AI advancements.",
+    "country": "Taiwan",
+    "language": [
+      "Mandarin Chinese"
+    ],
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Online (Self-Paced)",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Strategic Partner",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explore the mechanisms of AI and gain understanding of fundamental principles, including machine learning, generative AI, and applications."
+      },
+      {
+        "title": "Maximizing Productivity with AI Tools",
+        "description": "Improve work efficiency using generative AI tools and explore tasks enhanced through AI optimization."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Write effective instructions for desired results using prompting methods and evaluate outputs before application."
+      },
+      {
+        "title": "Use AI Responsibility",
+        "description": "Address bias and inaccuracies while implementing an AI risk mitigation framework and identifying security threats."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Enhance skills in the evolving AI field and learn how organizations apply AI for workplace innovation."
+      }
+    ],
+    "registrationUrl": "https://www.notion.so/AI-For-all-1ea04a6d6f3e80988bedce40da270bc3",
+    "materialsUrl": "https://pepper-table-42f.notion.site/AI-14504a6d6f3e804c80cfe3ce20fd0166?source=copy_link",
+    "heroImageUrl": "/images/courses/ai-for-all-taiwan-ai-academy.jpg"
+  },
+  {
+    "title": "SEED-AI: Skills for Education, Employment & Digital AI",
+    "slug": "seed-ai-skills-for-education-employment-digital-ai",
+    "description": "Explore AI mechanics, maximize productivity with AI tools, master prompt engineering, and understand responsible AI use.",
+    "country": "Australia",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "MSME employees"
+    ],
+    "format": [
+      "Online (Instructor-led)",
+      "Online (Self-Paced)"
+    ],
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explore mechanics of AI and understand AI and machine learning concepts, practical applications, and ethics in implementation."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Learn to leverage various AI tools to enhance productivity and streamline workflows."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Master techniques for crafting effective prompts to get optimal results from AI systems."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Understand ethical considerations and responsible AI application in professional and societal contexts."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Keep current with latest AI developments and trends to maintain competitiveness in your field."
+      }
+    ],
+    "registrationUrl": "https://www.deakinsmecentrelms.ai/",
+    "materialsUrl": "https://drive.google.com/file/d/1njruEkztMvwNqdgnQSsOimUZ6H2QTRAV/view?usp=sharing",
+    "heroImageUrl": "/images/courses/seed-ai-skills-for-education-employment-digital-ai.webp"
+  },
+  {
+    "title": "AI Resilient Communities - Upskill for the Future",
+    "slug": "ai-resilient-communities-upskill-for-the-future",
+    "description": "Training program offering AI education tailored for MSMEs and NGOs, covering fundamentals, practical applications, prompt engineering, responsible AI use, and staying current with developments.",
+    "country": "Sri Lanka",
+    "language": [
+      "English",
+      "Sinhala",
+      "Tamil"
+    ],
+    "targetAudience": [
+      "MSME employees",
+      "Non-profit Sector Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Anuradhapura",
+      "Badulla",
+      "Batticaloa",
+      "Colombo",
+      "Galle",
+      "Jaffna",
+      "Kandy",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "MSME Employees: AI and Business",
+        "description": "Explore AI mechanics, machine learning principles, and generative AI applications for professional environments."
+      },
+      {
+        "title": "MSME Employees: Maximising Productivity with AI Tools",
+        "description": "Learn to enhance work efficiency using generative AI and assess suitability for specific business tasks."
+      },
+      {
+        "title": "MSME Employees: Prompting for Business",
+        "description": "Master prompt engineering techniques to improve outputs from large language models for business contexts."
+      },
+      {
+        "title": "MSME Employees: Responsible & Safe Use of AI",
+        "description": "Recognize biases, prevent harm, protect data, and identify security risks in day-to-day AI operations."
+      },
+      {
+        "title": "MSME Employees: AI Adoption for Growth",
+        "description": "Examine organizational AI implementations and develop strategies for staying current with developments."
+      },
+      {
+        "title": "NGO: Introduction to AI",
+        "description": "Foundational module covering AI mechanics, machine learning, and generative AI potential and constraints."
+      },
+      {
+        "title": "NGO: Do More with Less - Boosting Non-Profit Productivity",
+        "description": "Utilize generative AI to enhance efficiency and streamline nonprofit workflows and task management."
+      },
+      {
+        "title": "NGO: Prompting for Purpose",
+        "description": "Master effective prompt writing for outreach, grant writing, storytelling, and proposal creation."
+      },
+      {
+        "title": "NGO: Use AI Responsibility",
+        "description": "Address ethical AI use, biases, implement harm prevention frameworks, and identify security threats."
+      },
+      {
+        "title": "NGO: Stay Ahead of the AI Curve",
+        "description": "Explore organizational AI implementations and formulate strategies for ongoing skill refinement."
+      }
+    ],
+    "registrationUrl": "https://gocurveup.com/ai-resilient-communities",
+    "materialsUrl": "https://drive.google.com/file/d/1mq6uXJst4P3N04q6o6UlEcfUmAcJ-7Vj/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-resilient-communities-upskill-for-the-future.webp"
+  },
+  {
+    "title": "AI for Equity: Empowering Refugee and Migrant Communities",
+    "slug": "ai-for-equity-empowering-refugee-and-migrant-communities",
+    "description": "A comprehensive training program designed to empower refugee and migrant communities through AI literacy and workplace productivity skills in the New Zealand context.",
+    "country": "New Zealand",
+    "language": [
+      "English",
+      "Arabic",
+      "Simplified Chinese",
+      "Traditional Chinese",
+      "Dari",
+      "Dinka",
+      "Karen",
+      "Kinyarwanda",
+      "Somali",
+      "Tigrinya"
+    ],
+    "targetAudience": [
+      "Non-profit Sector Workers",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Ashburton",
+      "Auckland",
+      "Christchurch",
+      "Hamilton",
+      "Virtual",
+      "Wellington"
+    ],
+    "modules": [
+      {
+        "title": "Digital Foundation & Local Context",
+        "description": "Coverage of digital access, online safety, and cultural context in New Zealand."
+      },
+      {
+        "title": "AI Basics & NZ Relevance",
+        "description": "Discussion of what AI is, its types, and impact on the New Zealand job market."
+      },
+      {
+        "title": "AI for Workplace Productivity",
+        "description": "Teaching on how to use different AI tools to improve specific workplace tasks."
+      },
+      {
+        "title": "AI & Cultural Safety",
+        "description": "Exploration of bias, ethics, and responsible AI usage considerations."
+      },
+      {
+        "title": "Future-Proofing & Job Action",
+        "description": "Focus on continuous learning and job-seeking strategies for AI opportunities."
+      }
+    ],
+    "registrationUrl": "http://www.nfact.co.nz/ai",
+    "materialsUrl": "https://docs.google.com/presentation/d/1na27dHg4fMEVpr1C9cQkX30An_4WXt-k/edit",
+    "heroImageUrl": "/images/courses/ai-for-equity-empowering-refugee-and-migrant-communities.jpg"
+  },
+  {
+    "title": "AI-Ready Malaysia",
+    "slug": "ai-ready-malaysia",
+    "description": "Establish foundational AI knowledge and practical skills. Learn what AI is, how it works, discover generative AI tools, master prompt engineering, navigate ethical considerations, and stay ahead of AI trends.",
+    "country": "Malaysia",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "MSME employees"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Alor Setar",
+      "Butterworth",
+      "Ipoh",
+      "Johor Bharu",
+      "Kuala Lumpur",
+      "Muar",
+      "Rawang",
+      "Shah Alam",
+      "Sintok",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "The AI Foundation",
+        "description": "Establish essential groundwork. Learn what AI is, how it works, and its core capabilities and limitations."
+      },
+      {
+        "title": "Boosting Efficiency with AI Tools",
+        "description": "Apply generative AI to your work. Discover practical tools and integrate them into daily workflow."
+      },
+      {
+        "title": "Mastering Prompt Engineering",
+        "description": "Learn to communicate with AI. Master crafting clear, specific prompts using advanced techniques."
+      },
+      {
+        "title": "Using AI Safely & Fairly",
+        "description": "Navigate AI's ethical landscape. Identify risks, biases, and security concerns for responsible use."
+      },
+      {
+        "title": "The Future of AI Trends",
+        "description": "Stay ahead of the curve. Develop strategies to track advancements and identify future opportunities."
+      }
+    ],
+    "registrationUrl": "http://avpn.pepperlabs.my/",
+    "materialsUrl": "https://drive.google.com/file/d/11zbOGmLh8z0iNz7K0RN4mGNHM4Zbr1ip/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-ready-malaysia.webp"
+  },
+  {
+    "title": "AI Capacity Building Program for Workforce Transformation and Digital Readiness",
+    "slug": "ai-capacity-building-program-for-workforce-transformation-and-digital-readiness",
+    "description": "Build understanding of AI concepts, learn to use AI as a work assistant, master prompting techniques, apply AI ethically, and integrate AI into professional workflows.",
+    "country": "Thailand",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Healthcare Related Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bangkok",
+      "Chonburi",
+      "Pathumthani",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Made Simple",
+        "description": "Build clear understanding of AI fundamentals, how it works, its importance, key concepts, capabilities and limitations."
+      },
+      {
+        "title": "Using AI as a Smart Work Assistant",
+        "description": "Apply AI to routine tasks including drafting, summarizing, planning, organizing information with emphasis on efficiency."
+      },
+      {
+        "title": "Getting Better Results from AI",
+        "description": "Learn practical prompting techniques, specify output formats, and refine responses for higher-quality results."
+      },
+      {
+        "title": "Using AI the Right Way",
+        "description": "Use AI ethically and responsibly covering privacy, bias awareness, accuracy risks, and evaluation methods."
+      },
+      {
+        "title": "Staying Competitive with AI",
+        "description": "Explore practical AI use cases across sectors and integrate AI into workflows with a capstone-style task."
+      }
+    ],
+    "registrationUrl": "https://adaptxacademy.ai/index.html",
+    "materialsUrl": "https://drive.google.com/file/d/1N_dH1dxn_VpPU-VD3ljfkVd7-5c7qmt8/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-capacity-building-program-for-workforce-transformation-and-digital-readiness.jpg"
+  },
+  {
+    "title": "AI Can Work! Artificial Intelligence Upskilling Program for Filipino Workers",
+    "slug": "ai-can-work-artificial-intelligence-upskilling-program-for-filipino-workers",
+    "description": "Understand AI fundamentals and learn to maximize productivity with generative AI tools through practical applications and responsible usage strategies.",
+    "country": "Philippines",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "MSME employees",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Bacolod",
+      "Davao",
+      "Pasig City",
+      "Quezon City",
+      "Tacloban",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Intro to AI",
+        "description": "Understand the fundamentals of AI and its relevance to work, gaining insights into its potential and constraints."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Discover generative AI tools and practical applications to various work tasks for increased productivity."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Master proper prompt engineering to formulate targeted prompts and generate outputs that boost productivity."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Navigate ethical AI usage by addressing biases and inaccuracies for responsible workplace implementation."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Develop continuous learning mindset for AI advancement to future-proof your professional career."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/9rF8Dd6UrEQE8LUv6",
+    "materialsUrl": "https://drive.google.com/file/d/13KnG2-SQF_g1DvVRl6jpRvTGhE9xgYUD/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-can-work-artificial-intelligence-upskilling-program-for-filipino-workers.webp"
+  },
+  {
+    "title": "Inclusive AI Skills for Employment and Community Resilience",
+    "slug": "inclusive-ai-skills-for-employment-and-community-resilience",
+    "description": "Explores AI fundamentals, machine learning, and generative AI applications while emphasizing ethical use, responsible decision-making, and practical workplace integration strategies.",
+    "country": "Indonesia",
+    "language": [
+      "Bahasa Indonesia"
+    ],
+    "targetAudience": [
+      "Agricultural or Fishery Workers",
+      "MSME employees",
+      "Unemployed"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Kolaka",
+      "Kupang",
+      "Makassar",
+      "Mamuju",
+      "Ternate",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to AI",
+        "description": "Explores AI fundamentals, machine learning, generative AI applications, limitations, and the importance of human oversight."
+      },
+      {
+        "title": "Maximize Productivity with AI Tools",
+        "description": "Demonstrates how generative AI enhances workplace productivity while emphasizing task suitability and human oversight."
+      },
+      {
+        "title": "Discover the Art of Prompt Engineering",
+        "description": "Develops skills to craft, refine, and evaluate prompts for accurate, effective, and task-relevant AI outputs."
+      },
+      {
+        "title": "Use AI Responsibly",
+        "description": "Examines ethical AI use, addressing bias, privacy, security risks, and responsible decision-making practices."
+      },
+      {
+        "title": "Stay Ahead of the AI Curve",
+        "description": "Builds strategies to monitor AI trends, evaluate tools, and identify innovative workplace integration opportunities."
+      }
+    ],
+    "registrationUrl": "https://ruangkolabperempuan.org/ai-accelerator/",
+    "materialsUrl": "https://docs.google.com/presentation/d/1um8RHZ2jPlA87OzV5f_GfrMEUU6M5PyA/edit?usp=sharing&ouid=106778057045679030713&rtpof=true&sd=true",
+    "heroImageUrl": "/images/courses/inclusive-ai-skills-for-employment-and-community-resilience.jpg"
+  },
+  {
+    "title": "The AI Multiplier: Empowering Vietnam's Core Professionals",
+    "slug": "the-ai-multiplier-empowering-vietnams-core-professionals",
+    "description": "Master foundational GenAI concepts and learn practical applications relevant to education, healthcare, and journalism professionals across Vietnam.",
+    "country": "Vietnam",
+    "language": [
+      "Vietnamese"
+    ],
+    "targetAudience": [
+      "Education Sector Workers (Teachers including TVET)",
+      "Healthcare Related Workers",
+      "Service Sector Workers (Tourism, Retail, Media, etc.)"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Da Nang",
+      "Dien Bien",
+      "Hanoi",
+      "Ho Chi Minh",
+      "Hung Yen",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to GenAI: Understanding Correctly, Using Effectively",
+        "description": "Master foundational GenAI concepts, explore how these technologies work, and learn practical applications."
+      },
+      {
+        "title": "AI and Responsibility: Understanding Risks, Avoiding Bias",
+        "description": "Navigate AI ethics, data privacy concerns, and bias mitigation strategies for responsible integration."
+      },
+      {
+        "title": "Data Analysis & Visualization",
+        "description": "Build practical skills using GenAI tools for data analysis, pattern identification, and creating compelling visualizations."
+      },
+      {
+        "title": "Research & Reporting",
+        "description": "Master AI-assisted research techniques, efficient literature review processes, and comprehensive report writing."
+      },
+      {
+        "title": "Work Automation with GenAI",
+        "description": "Streamline repetitive tasks through AI-powered workflows including document drafting and meeting summaries."
+      }
+    ],
+    "registrationUrl": "https://survey.filum.ai/l/tokwyf",
+    "materialsUrl": "https://drive.google.com/file/d/1rvSAkVq7wsfvbNbDVthbGjRbBXH644zT/view?usp=sharing",
+    "heroImageUrl": "/images/courses/the-ai-multiplier-empowering-vietnams-core-professionals.jpg"
+  },
+  {
+    "title": "AI for Frontline Impact: A Behavioural Capacity Building Programme",
+    "slug": "ai-for-frontline-impact-a-behavioural-capacity-building-programme",
+    "description": "A behavioral capacity building program designed to introduce AI concepts to frontline workers through interactive and culturally relevant methods, emphasizing practical applications and safety awareness.",
+    "country": "India",
+    "language": [
+      "Hindi"
+    ],
+    "targetAudience": [
+      "Other Industry Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Uttar Pradesh",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Curiosity - AI Kya Hai (What is AI)?",
+        "description": "Introduces AI through playful interaction with drawing, images, translation, and voice to reduce fear and increase accessibility without technical requirements."
+      },
+      {
+        "title": "Freedom - AI Kaha Use Hota Hai? (Where is AI used?)",
+        "description": "Helps participants understand AI applications in personal, family, and work contexts, positioning AI as a supportive thinking and creative tool."
+      },
+      {
+        "title": "Show and Tell - Mera AI, Meri Unnati (My AI, My Success)",
+        "description": "Guides participants in applying AI to real-life scenarios including personal growth, business ventures, and aspirations for advancement."
+      },
+      {
+        "title": "Safety - Samajh aur Savdhaani (Safety & Risk Mitigation)",
+        "description": "Trains participants to identify digital risks through gamified learning, including spotting deepfakes and using AI as a fact-checking resource."
+      }
+    ],
+    "registrationUrl": "https://forms.gle/LFYwUV2TYEPbvTwP6",
+    "materialsUrl": "https://drive.google.com/file/d/1XsU8fDWylSO7Bh5WVT5lNNtR4xMx3Zlg/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-for-frontline-impact-a-behavioural-capacity-building-programme.jpg"
+  },
+  {
+    "title": "My Style Career Lab - AI Reskilling Program",
+    "slug": "my-style-career-lab-ai-reskilling-program",
+    "description": "An AI literacy and reskilling initiative featuring hands-on workshops on Gemini, Google AI Essentials certification, and sector-specific tutorials for tourism and MSME sectors.",
+    "country": "Japan",
+    "language": [
+      "Japanese"
+    ],
+    "targetAudience": [
+      "Domestic Workers (Home Caregivers)",
+      "MSME employees",
+      "Non-profit Sector Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Aichi",
+      "Chiba (Inzai City)",
+      "Gifu",
+      "Tokyo",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "Module 1",
+        "description": "On-site seminar with hands-on workshop on Gemini and AI literacy fundamentals."
+      },
+      {
+        "title": "Module 2",
+        "description": "Core learning on Google AI Essentials with a 50-question assessment."
+      },
+      {
+        "title": "Module 3",
+        "description": "Elective learning with sector-specific tutorials targeting tourism and MSME sectors."
+      },
+      {
+        "title": "Module 4",
+        "description": "Online salon and community session for learning reflection and peer discussion."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSe_tMf4VwM-w0-5YSQVjelLZ63iZihv7Kwbr8hwPIGEOI2QoA/closedform",
+    "materialsUrl": "https://drive.google.com/file/d/1UAx910iy2cREmzCghyC_5kiXZ98Vce2T/view?usp=sharing",
+    "heroImageUrl": "/images/courses/my-style-career-lab-ai-reskilling-program.jpg"
+  },
+  {
+    "title": "AI Accelerate Programme",
+    "slug": "ai-accelerate-programme",
+    "description": "Build confidence and move from curiosity to action using the AI Impact Map to identify where technology can handle routine tasks, freeing you to focus on work only you can do.",
+    "country": "Singapore",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "MSME employees",
+      "Other Industry Workers",
+      "Vocational School Students"
+    ],
+    "format": "Hybrid",
+    "skillLevel": [
+      "Beginner",
+      "Intermediate"
+    ],
+    "phase": "Phase 2",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Singapore",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "The AI-Ready Mindset",
+        "description": "Build Your Confidence. Move from curiosity to action by using the AI Impact Map to identify where technology can handle the routine."
+      },
+      {
+        "title": "Productivity Engineering",
+        "description": "Sharpen Your Toolkit. Discover advanced prompting and the Save-One-Hour Lab to streamline daily tasks with greater precision."
+      },
+      {
+        "title": "Intelligent Research & Data Safety",
+        "description": "Work Smarter and Safer. Learn to manage information overload using AI while maintaining data integrity and responsible privacy habits."
+      },
+      {
+        "title": "The Career Edge and Future Proofing",
+        "description": "Own Your Growth. Enhance your professional brand by using AI to refine your resume and interview skills."
+      },
+      {
+        "title": "The Live Implementation Workshop",
+        "description": "Grow Together. Join a collaborative session to apply new skills to real-world tasks and stay ahead of the AI curve."
+      }
+    ],
+    "registrationUrl": "https://ai-for-all-singapore.mn.co/plans/1949138",
+    "materialsUrl": "https://drive.google.com/file/d/1BqrdEYhcNUeoigKIckddlfMgvJdDv3iV/view?usp=sharing",
+    "heroImageUrl": "/images/courses/ai-accelerate-programme.jpg"
+  },
+  {
+    "title": "AI Literacy for Everyone: Understand, Apply, Create",
+    "slug": "ai-literacy-for-everyone-understand-apply-create",
+    "description": "Learn core AI concepts, productivity tools, prompt techniques, and responsible use to stay ahead in digital innovation through three comprehensive modules.",
+    "country": "Indonesia",
+    "language": [
+      "English"
+    ],
+    "targetAudience": [
+      "College/University Students",
+      "Education Sector Workers (Teachers including TVET)",
+      "Healthcare Related Workers",
+      "Other Industry Workers"
+    ],
+    "format": "Hybrid",
+    "skillLevel": "Beginner",
+    "phase": "Phase 1",
+    "providerType": "Local Training Provider",
+    "locations": [
+      "Gorontalo",
+      "Palu",
+      "Semarang (Central Java)",
+      "Virtual"
+    ],
+    "modules": [
+      {
+        "title": "AI Fundamentals",
+        "description": "Learn core AI concepts, productivity tools, prompt techniques, and responsible use to stay ahead in digital innovation."
+      },
+      {
+        "title": "Generative AI",
+        "description": "Explore how AI creates text and visuals using Large Language Models (LLMs) and creative prompting."
+      },
+      {
+        "title": "Responsible AI",
+        "description": "Understand ethical principles, data privacy, and applying AI responsibly through cloud technologies."
+      }
+    ],
+    "registrationUrl": "https://docs.google.com/forms/d/e/1FAIpQLSd2Ou23Xw6CygHLhbS-2zsmJZ-REGuyrsUPjafYLAuWYfoJXg/formResponse",
+    "materialsUrl": "https://drive.google.com/file/d/1tHrJuHzwZ5cdH1_mnBgswpLdQ6VobeFs/view?usp=drive_link",
+    "heroImageUrl": "/images/courses/ai-literacy-for-everyone-understand-apply-create.jpg"
+  }
+]

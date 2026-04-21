@@ -1,0 +1,136 @@
+{
+  "brand": {
+    "name": "AVPN",
+    "tagline": "Moving capital towards impact in Asia",
+    "url": "https://avpn.asia/",
+    "extractedOn": "2026-04-21"
+  },
+  "colors": {
+    "primary": "#002944",
+    "primaryForeground": "#FFFFFF",
+    "secondary": "#91C7D6",
+    "secondaryForeground": "#002944",
+    "accent": "#E42919",
+    "accentForeground": "#FFFFFF",
+    "background": "#FFFFFF",
+    "foreground": "#002944",
+    "muted": "#E4F1F5",
+    "mutedForeground": "#39627A",
+    "border": "#C9C9C9",
+    "destructive": "#BF0F00",
+    "destructiveForeground": "#FFFFFF",
+    "palette": [
+      "#002944",
+      "#91C7D6",
+      "#C1E6E7",
+      "#E4F1F5",
+      "#E42919",
+      "#BF0F00",
+      "#13B36A",
+      "#00B4AE",
+      "#007B69",
+      "#F27C38",
+      "#FFD552",
+      "#FFF6D4",
+      "#39627A",
+      "#252828",
+      "#F7F7F7"
+    ]
+  },
+  "typography": {
+    "fonts": {
+      "heading": {
+        "family": "Open Sans",
+        "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "source": "google",
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap"
+      },
+      "body": {
+        "family": "Open Sans",
+        "fallback": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+        "source": "google",
+        "url": "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap"
+      }
+    },
+    "scale": {
+      "xs": "0.8125rem",
+      "sm": "0.875rem",
+      "base": "1rem",
+      "lg": "1.125rem",
+      "xl": "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "2.25rem",
+      "4xl": "2.625rem"
+    },
+    "headingStyle": {
+      "weight": "700",
+      "letterSpacing": "-0.01em",
+      "lineHeight": "1.2"
+    },
+    "bodyStyle": {
+      "weight": "400",
+      "letterSpacing": "normal",
+      "lineHeight": "1.6"
+    }
+  },
+  "borderRadius": {
+    "sm": "4px",
+    "md": "8px",
+    "lg": "20px",
+    "full": "9999px"
+  },
+  "shadows": {
+    "sm": "0 1px 3px rgba(0, 0, 0, 0.1)",
+    "md": "6px 6px 9px rgba(0, 0, 0, 0.2)",
+    "lg": "12px 12px 50px rgba(0, 0, 0, 0.4)"
+  },
+  "visualLanguage": {
+    "overall": "Clean, institutional, and approachable. Deep navy paired with soft teals and warm accents creates a trustworthy yet inviting feel suited to a philanthropy network.",
+    "density": "spacious",
+    "tone": "corporate",
+    "layout": {
+      "maxWidth": "1120px",
+      "style": "centered",
+      "sectionSpacing": "5rem",
+      "gridColumns": "12"
+    },
+    "components": {
+      "buttons": {
+        "style": "filled",
+        "shape": "pill",
+        "sizes": "md"
+      },
+      "cards": {
+        "style": "shadow",
+        "radius": "20px",
+        "padding": "24px"
+      },
+      "navigation": {
+        "style": "sticky",
+        "position": "top"
+      },
+      "inputs": {
+        "style": "bordered",
+        "radius": "100px"
+      }
+    },
+    "decorative": {
+      "gradients": false,
+      "patterns": false,
+      "illustrations": false,
+      "dividers": "none",
+      "imageStyle": "photography"
+    }
+  },
+  "assets": {
+    "logo": "./logo.png",
+    "logoWhite": "./logo-white.png",
+    "logoSvg": "./avpn-unrestricted.svg",
+    "favicon": null,
+    "screenshots": [
+      "./screenshots/homepage-desktop.png",
+      "./screenshots/homepage-mobile.png",
+      "./screenshots/ai-learning-desktop.png"
+    ]
+  }
+}

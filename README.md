@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AVPN AI Learning Hub — Gemini Prototype
+
+A conversational AI learning platform for [AVPN](https://avpn.asia/) that helps workers across Asia-Pacific discover and enroll in free AI training programs. Users describe their role, location, and goals, and a Gemini-powered assistant matches them with relevant courses.
+
+Built as a prototype for the AVPN initiative supported by Google.org and the Asian Development Bank.
+
+## Features
+
+- **AI chat assistant** — conversational course discovery powered by Gemini (currently mock responses)
+- **Course catalog** — browse 72+ free AI training programs across 15+ countries
+- **Country-based filtering** — find programs available in your region
+- **Course detail pages** — per-course pages with descriptions, format, skill level, and more
+- **About page** — initiative overview and partner information
+- **Responsive design** — mobile-first layout with AVPN brand styling
+
+## Tech Stack
+
+- **Next.js 16** with App Router
+- **React 19**
+- **TypeScript**
+- **Tailwind CSS 4**
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+  app/
+    page.tsx          # Home — hero + chat interface
+    about/            # About the initiative
+    courses/          # Course catalog + [slug] detail pages
+    api/courses/      # Course data API route
+  components/         # Header, Footer, CourseCard, CourseFilters
+  data/courses.json   # Course dataset
+  lib/                # Course helpers, mock chat logic
+  types/              # TypeScript interfaces
+brand/                # AVPN logos and theme tokens
+public/images/        # Course hero images, logos
+docs/                 # Strategy docs, sprint scope
+```
 
-## Learn More
+## Status
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Early prototype — chat responses are mocked. Gemini API integration is the next milestone.

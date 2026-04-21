@@ -1,26 +1,184 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --navy: #002944;
+  --navy-light: #39627A;
+  --teal: #91C7D6;
+  --teal-light: #C1E6E7;
+  --teal-ice: #E4F1F5;
+  --red: #E42919;
+  --red-dark: #BF0F00;
+  --red-light: #F8CAC6;
+  --yellow: #FFD552;
+  --yellow-light: #FFF6D4;
+  --green: #13B36A;
+  --green-dark: #007B69;
+  --cyan: #00B4AE;
+  --orange: #F27C38;
+  --charcoal: #252828;
+  --slate: #39627A;
+  --slate-light: #CED8DE;
+  --gray-light: #F7F7F7;
+  --white: #FFFFFF;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--white);
+  --color-foreground: var(--navy);
+  --font-sans: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--white);
+  color: var(--navy);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── Noise texture overlay ── */
+.noise-overlay {
+  position: relative;
+}
+.noise-overlay::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+  background-size: 256px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* ── Warm animated mesh for landing hero ── */
+.hero-warm-mesh {
+  background:
+    radial-gradient(ellipse 55% 45% at 10% 85%, rgba(145, 199, 214, 0.5) 0%, transparent 70%),
+    radial-gradient(ellipse 45% 40% at 90% 15%, rgba(255, 245, 212, 0.6) 0%, transparent 65%),
+    radial-gradient(ellipse 35% 35% at 70% 70%, rgba(248, 202, 198, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 45% at 30% 30%, rgba(193, 230, 231, 0.4) 0%, transparent 60%),
+    linear-gradient(135deg, #E4F1F5 0%, #dceef4 20%, #FFF6D4 45%, #F0EDE6 60%, #C1E6E7 80%, #E4F1F5 100%);
+  background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 200% 200%;
+  animation: meshShift 20s ease-in-out infinite;
+}
+
+@keyframes meshShift {
+  0%, 100% { background-position: 0% 0%, 100% 100%, 70% 70%, 30% 30%, 0% 0%; }
+  25%      { background-position: 10% 20%, 80% 10%, 60% 80%, 40% 20%, 50% 25%; }
+  50%      { background-position: 5% 10%, 90% 30%, 75% 60%, 25% 40%, 100% 50%; }
+  75%      { background-position: 15% 5%, 70% 20%, 65% 75%, 35% 35%, 50% 75%; }
+}
+
+/* ── Dark hero gradient mesh (CTAs, courses hero) ── */
+.hero-mesh {
+  background:
+    radial-gradient(ellipse 80% 60% at 20% 80%, rgba(145, 199, 214, 0.3) 0%, transparent 60%),
+    radial-gradient(ellipse 60% 50% at 80% 20%, rgba(0, 180, 174, 0.15) 0%, transparent 50%),
+    radial-gradient(ellipse 50% 70% at 50% 50%, rgba(57, 98, 122, 0.2) 0%, transparent 60%),
+    linear-gradient(170deg, #002944 0%, #0a3d5c 40%, #1a4a6e 70%, #002944 100%);
+}
+
+/* ── Card hover ── */
+.card-glow {
+  transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  border: 1px solid transparent;
+}
+.card-glow:hover {
+  border-color: rgba(145, 199, 214, 0.5);
+  box-shadow:
+    0 8px 30px rgba(0, 41, 68, 0.08),
+    0 0 0 1px rgba(145, 199, 214, 0.15);
+  transform: translateY(-2px);
+}
+
+/* ── Collage float animations ── */
+@keyframes collageFloat1 {
+  0%, 100% { transform: rotate(-3deg) translateY(0); }
+  50% { transform: rotate(-3deg) translateY(-10px); }
+}
+@keyframes collageFloat2 {
+  0%, 100% { transform: rotate(2deg) translateY(0); }
+  50% { transform: rotate(2deg) translateY(-12px); }
+}
+@keyframes collageFloat3 {
+  0%, 100% { transform: rotate(1deg) translateY(0); }
+  50% { transform: rotate(1deg) translateY(-8px); }
+}
+
+/* ── Staggered fade-in ── */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-in { animation: fadeInUp 0.6s ease-out both; }
+.stagger-1 { animation-delay: 0.1s; }
+.stagger-2 { animation-delay: 0.2s; }
+.stagger-3 { animation-delay: 0.3s; }
+.stagger-4 { animation-delay: 0.4s; }
+.stagger-5 { animation-delay: 0.5s; }
+.stagger-6 { animation-delay: 0.6s; }
+
+/* ── Buttons ── */
+.btn-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 9999px;
+  padding: 0.75rem 1.75rem;
+  transition: all 0.25s ease;
+  cursor: pointer;
+  text-decoration: none;
+}
+.btn-primary {
+  background: var(--red);
+  color: white;
+}
+.btn-primary:hover {
+  background: var(--red-dark);
+  box-shadow: 0 4px 16px rgba(228, 41, 25, 0.3);
+  transform: translateY(-1px);
+}
+.btn-secondary {
+  background: transparent;
+  color: white;
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(4px);
+}
+.btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.7);
+}
+.btn-outline {
+  background: transparent;
+  color: var(--navy);
+  border: 1.5px solid var(--slate-light);
+}
+.btn-outline:hover {
+  border-color: var(--teal);
+  color: var(--slate);
+  background: var(--teal-ice);
+}
+
+/* ── Filter dropdown ── */
+.filter-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%2339627A' viewBox='0 0 16 16'%3E%3Cpath d='M8 11L3 6h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+/* ── Divider ── */
+.divider-teal {
+  height: 3px;
+  width: 48px;
+  background: linear-gradient(90deg, var(--teal), var(--cyan));
+  border-radius: 2px;
 }
