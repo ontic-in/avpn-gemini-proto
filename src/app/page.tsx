@@ -3,7 +3,9 @@
 import { useState, useRef, useEffect } from "react";
 import Link from "next/link";
 import { Course } from "@/types/course";
-import { ChatMessage, getMockResponse } from "@/lib/mock-chat";
+import { ChatMessage } from "@/lib/mock-chat";
+import InlineForm from "@/components/InlineForm";
+import type { FormComponent, FormResponse } from "@/types/chat-component";
 
 const SUGGESTIONS = [
   "How can AI help me in my daily work?",
@@ -21,16 +23,25 @@ const COUNTRY_FLAGS: Record<string, string> = {
   Bangladesh: "🇧🇩", "Sri Lanka": "🇱🇰", "New Zealand": "🇳🇿",
 };
 
-// Gemini sparkle icon
-function GeminiIcon({ className = "w-4 h-4" }: { className?: string }) {
+// Generic AI sparkle icon — a four-point star (no provider branding)
+function SparkleIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
-    <svg className={className} viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M14 0C14 7.732 7.732 14 0 14c7.732 0 14 6.268 14 14 0-7.732 6.268-14 14-14-7.732 0-14-6.268-14-14Z" fill="url(#gemini-grad)" />
+    <svg className={className} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+      {/* Large 4-point star: main sparkle */}
+      <path
+        d="M12 2L13.8 9.2C14.1 10.3 14.9 11.2 16 11.6L21 12L16 12.4C14.9 12.8 14.1 13.7 13.8 14.8L12 22L10.2 14.8C9.9 13.7 9.1 12.8 8 12.4L3 12L8 11.6C9.1 11.2 9.9 10.3 10.2 9.2L12 2Z"
+        fill="url(#sparkle-grad)"
+      />
+      {/* Small 4-point star accent: top-right */}
+      <path
+        d="M19 3L19.6 5.4C19.7 5.8 20 6.1 20.4 6.2L22.5 6.8L20.4 7.4C20 7.5 19.7 7.8 19.6 8.2L19 10.6L18.4 8.2C18.3 7.8 18 7.5 17.6 7.4L15.5 6.8L17.6 6.2C18 6.1 18.3 5.8 18.4 5.4L19 3Z"
+        fill="url(#sparkle-grad)"
+      />
       <defs>
-        <linearGradient id="gemini-grad" x1="0" y1="0" x2="28" y2="28" gradientUnits="userSpaceOnUse">
-          <stop stopColor="#4285F4" />
-          <stop offset=".5" stopColor="#9B72CB" />
-          <stop offset="1" stopColor="#D96570" />
+        <linearGradient id="sparkle-grad" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse">
+          <stop stopColor="#91C7D6" />
+          <stop offset=".5" stopColor="#1A3A5C" />
+          <stop offset="1" stopColor="#E42919" />
         </linearGradient>
       </defs>
     </svg>
@@ -49,18 +60,98 @@ export default function HomePage() {
   useEffect(() => { fetch("/api/courses").then((r) => r.json()).then(setCourses); }, []);
   useEffect(() => { if (scrollRef.current) scrollRef.current.scrollTop = scrollRef.current.scrollHeight; }, [messages, isTyping]);
 
-  const sendMessage = (text: string) => {
-    if (!text.trim() || isTyping) return;
+  // Core call to /api/chat. `visibleText` is what's shown in the user bubble
+  // (empty = don't render a user bubble, useful for form submissions that
+  // already appended their own summary bubble). `historyText` is what gets
+  // sent to the agent.
+  const postToAgent = async (params: {
+    visibleText: string;
+    historyText: string;
+    history: { role: "user" | "assistant"; content: string }[];
+  }) => {
+    const { visibleText, historyText, history } = params;
     setChatActive(true);
-    setMessages((prev) => [...prev, { id: Date.now().toString(), role: "user", content: text.trim() }]);
-    setInput("");
+    if (visibleText) {
+      setMessages((prev) => [
+        ...prev,
+        { id: `${Date.now()}-u`, role: "user", content: visibleText },
+      ]);
+    }
     setIsTyping(true);
-    setTimeout(() => {
-      const response = getMockResponse(text, courses);
-      setMessages((prev) => [...prev, { id: (Date.now() + 1).toString(), role: "assistant", content: response.text, courses: response.courses }]);
+
+    try {
+      const res = await fetch("/api/chat", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: historyText, history }),
+      });
+      if (!res.ok) throw new Error(`Chat API returned ${res.status}`);
+      const data = (await res.json()) as {
+        content: string;
+        courses?: Course[];
+        component?: FormComponent | null;
+      };
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: `${Date.now()}-a`,
+          role: "assistant",
+          content: data.content || "",
+          courses: data.courses,
+          component: data.component || undefined,
+        },
+      ]);
+    } catch (err) {
+      console.error("Chat request failed", err);
+      setMessages((prev) => [
+        ...prev,
+        {
+          id: `${Date.now()}-err`,
+          role: "assistant",
+          content:
+            "Sorry — I couldn't reach the assistant right now. Please try again in a moment.",
+        },
+      ]);
+    } finally {
       setIsTyping(false);
       inputRef.current?.focus();
-    }, 800 + Math.random() * 700);
+    }
+  };
+
+  const sendMessage = async (text: string) => {
+    const trimmed = text.trim();
+    if (!trimmed || isTyping) return;
+    setInput("");
+    const history = messages
+      .filter((m) => m.content?.trim())
+      .map((m) => ({ role: m.role, content: m.content }));
+    await postToAgent({
+      visibleText: trimmed,
+      historyText: trimmed,
+      history,
+    });
+  };
+
+  const handleFormSubmit = async (
+    messageId: string,
+    response: FormResponse,
+  ) => {
+    if (isTyping) return;
+    // Mark the original form as submitted so the CTA shows "Submitted"
+    setMessages((prev) =>
+      prev.map((m) =>
+        m.id === messageId ? { ...m, formSubmitted: true } : m,
+      ),
+    );
+    const visible = response.summary || "Here are my answers.";
+    const history = messages
+      .filter((m) => m.content?.trim())
+      .map((m) => ({ role: m.role, content: m.content }));
+    await postToAgent({
+      visibleText: visible,
+      historyText: visible,
+      history,
+    });
   };
 
   const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); sendMessage(input); };
@@ -80,14 +171,10 @@ export default function HomePage() {
           <div className="max-w-2xl mx-auto flex items-center justify-between">
             <div className="flex items-center gap-3">
               <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-sm">
-                <GeminiIcon className="w-4 h-4" />
+                <SparkleIcon className="w-4 h-4" />
               </div>
               <div>
                 <p className="text-[14px] font-semibold text-[var(--navy)]">AI Learning Assistant</p>
-                <div className="flex items-center gap-1">
-                  <GeminiIcon className="w-2.5 h-2.5" />
-                  <span className="text-[10px] text-[var(--slate)]">Powered by Gemini</span>
-                </div>
               </div>
             </div>
             <button onClick={() => { setMessages([]); setChatActive(false); }} className="text-[12px] font-medium text-[var(--slate)] hover:text-[var(--navy)] transition-colors cursor-pointer">New chat</button>
@@ -100,14 +187,23 @@ export default function HomePage() {
                 <div className={`max-w-[85%] ${msg.role === "user" ? "bg-[var(--navy)] text-white rounded-2xl rounded-br-sm px-5 py-3.5" : "bg-white border border-[var(--slate-light)]/15 rounded-2xl rounded-bl-sm px-5 py-4 shadow-[0_2px_12px_rgba(0,41,68,0.04)]"}`}>
                   {msg.role === "assistant" && (
                     <div className="flex items-center gap-2 mb-2.5">
-                      <GeminiIcon className="w-4 h-4" />
+                      <SparkleIcon className="w-4 h-4" />
                       <span className="text-[11px] font-semibold text-[var(--slate)]">AI Learning Assistant</span>
                     </div>
                   )}
-                  <div className={`text-[15px] leading-relaxed whitespace-pre-line ${msg.role === "user" ? "text-white" : "text-[var(--navy)]"}`}
-                    dangerouslySetInnerHTML={{ __html: msg.content.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>").replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="underline text-[var(--red)] font-medium">$1</a>') }} />
+                  {msg.content && (
+                    <div className={`text-[15px] leading-relaxed whitespace-pre-line ${msg.role === "user" ? "text-white" : "text-[var(--navy)]"}`}
+                      dangerouslySetInnerHTML={{ __html: msg.content.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>").replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" class="underline text-[var(--red)] font-medium">$1</a>') }} />
+                  )}
                   {msg.courses && msg.courses.length > 0 && (
                     <div className="mt-4 space-y-2">{msg.courses.map((course) => <MiniCourseCard key={course.slug} course={course} />)}</div>
+                  )}
+                  {msg.component && msg.role === "assistant" && (
+                    <InlineForm
+                      form={msg.component}
+                      submitted={msg.formSubmitted}
+                      onSubmit={(response) => handleFormSubmit(msg.id, response)}
+                    />
                   )}
                 </div>
               </div>
@@ -116,7 +212,7 @@ export default function HomePage() {
               <div className="flex justify-start animate-in">
                 <div className="bg-white border border-[var(--slate-light)]/15 rounded-2xl rounded-bl-sm px-5 py-4 shadow-sm">
                   <div className="flex items-center gap-2.5">
-                    <GeminiIcon className="w-4 h-4" />
+                    <SparkleIcon className="w-4 h-4" />
                     <span className="text-[12px] text-[var(--slate)]">Thinking</span>
                     <span className="flex gap-0.5">
                       <span className="w-1.5 h-1.5 bg-[var(--teal)] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
@@ -137,11 +233,7 @@ export default function HomePage() {
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
             </button>
           </form>
-          <div className="max-w-2xl mx-auto flex items-center justify-between mt-2">
-            <div className="flex items-center gap-1.5">
-              <GeminiIcon className="w-3 h-3" />
-              <span className="text-[11px] text-[var(--slate-light)]">Powered by Gemini</span>
-            </div>
+          <div className="max-w-2xl mx-auto flex items-center justify-end mt-2">
             <Link href="/courses" className="text-[11px] text-[var(--slate)] hover:text-[var(--navy)] font-medium transition-colors">Browse all courses &rarr;</Link>
           </div>
         </div>
@@ -159,12 +251,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 lg:grid-cols-[1fr_1.1fr] gap-12 items-center">
             {/* Left */}
             <div className="max-w-[520px]">
-              {/* Gemini badge — replaces the generic stats tag */}
               <div className="flex items-center gap-5 mb-8 animate-in stagger-1">
-                <div className="flex items-center gap-2 bg-white rounded-full px-3.5 py-1.5 shadow-[0_1px_4px_rgba(0,41,68,0.06)]">
-                  <GeminiIcon className="w-4 h-4" />
-                  <span className="text-[13px] font-semibold text-[var(--navy)]">Powered by Gemini</span>
-                </div>
                 <div className="flex items-center gap-1.5 text-[13px] text-[var(--slate)]">
                   <span className="w-1 h-1 rounded-full bg-[var(--green)]" />
                   <span>{courses.length || 72} free courses across {countriesCount} countries</span>
@@ -182,7 +269,7 @@ export default function HomePage() {
               <form onSubmit={handleSubmit} className="mb-6 animate-in stagger-4">
                 <div className="relative group">
                   <div className="flex items-center bg-white rounded-2xl shadow-[0_2px_16px_rgba(0,41,68,0.08)] group-focus-within:shadow-[0_4px_24px_rgba(145,199,214,0.25)] transition-shadow">
-                    <GeminiIcon className="w-5 h-5 ml-5 flex-shrink-0 opacity-40 group-focus-within:opacity-70 transition-opacity" />
+                    <SparkleIcon className="w-5 h-5 ml-5 flex-shrink-0 opacity-40 group-focus-within:opacity-70 transition-opacity" />
                     <input
                       ref={inputRef}
                       type="text"
