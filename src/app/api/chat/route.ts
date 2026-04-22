@@ -73,7 +73,7 @@ export async function POST(req: Request) {
     const result = await client.messages.create({
       model: "claude-sonnet-4-5",
       max_tokens: 1024,
-      temperature: 0.7,
+      temperature: 0.4,
       system: getSystemPrompt(),
       tools: [DISPLAY_FORM_TOOL],
       messages,
@@ -149,6 +149,18 @@ export async function POST(req: Request) {
     );
   }
 
+  // Extract [SUGGESTIONS] line from the response
+  let suggestions: string[] = [];
+  const suggestionsMatch = responseText.match(/\[SUGGESTIONS\](.+)$/m);
+  if (suggestionsMatch) {
+    suggestions = suggestionsMatch[1]
+      .split("|")
+      .map((s) => s.trim())
+      .filter(Boolean)
+      .slice(0, 3);
+    responseText = responseText.replace(/\n?\[SUGGESTIONS\].+$/m, "").trim();
+  }
+
   const courses = responseText
     ? extractMentionedCourses(responseText, getAllCourses())
     : [];
@@ -157,5 +169,6 @@ export async function POST(req: Request) {
     content: responseText,
     courses,
     component,
+    suggestions,
   });
 }
