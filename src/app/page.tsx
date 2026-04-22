@@ -16,6 +16,7 @@ const SUGGESTIONS = [
   "How do I earn a certificate?",
 ];
 
+
 const COUNTRY_FLAGS: Record<string, string> = {
   Indonesia: "🇮🇩", India: "🇮🇳", Vietnam: "🇻🇳", Malaysia: "🇲🇾",
   Singapore: "🇸🇬", Japan: "🇯🇵", "South Korea": "🇰🇷", Philippines: "🇵🇭",
@@ -90,6 +91,7 @@ export default function HomePage() {
         content: string;
         courses?: Course[];
         component?: FormComponent | null;
+        suggestions?: string[];
       };
       setMessages((prev) => [
         ...prev,
@@ -99,6 +101,7 @@ export default function HomePage() {
           content: data.content || "",
           courses: data.courses,
           component: data.component || undefined,
+          suggestions: data.suggestions,
         },
       ]);
     } catch (err) {
@@ -132,6 +135,19 @@ export default function HomePage() {
     });
   };
 
+  // Start a fresh chat from the landing page — clears any prior conversation
+  const startNewChat = async (text: string) => {
+    const trimmed = text.trim();
+    if (!trimmed || isTyping) return;
+    setInput("");
+    setMessages([]);
+    await postToAgent({
+      visibleText: trimmed,
+      historyText: trimmed,
+      history: [],
+    });
+  };
+
   const handleFormSubmit = async (
     messageId: string,
     response: FormResponse,
@@ -154,7 +170,14 @@ export default function HomePage() {
     });
   };
 
-  const handleSubmit = (e: React.FormEvent) => { e.preventDefault(); sendMessage(input); };
+  const handleSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (chatActive) {
+      sendMessage(input);
+    } else {
+      startNewChat(input);
+    }
+  };
 
   const featured = courses.slice(0, 6);
   const countriesCount = courses.length > 0 ? [...new Set(courses.map((c) => c.country).filter(Boolean))].length : 15;
@@ -170,14 +193,18 @@ export default function HomePage() {
         <div className="bg-[var(--teal-ice)] border-b border-[var(--slate-light)]/15 flex-shrink-0 px-6 py-3">
           <div className="max-w-2xl mx-auto flex items-center justify-between">
             <div className="flex items-center gap-3">
+              <button onClick={() => setChatActive(false)} className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-sm hover:bg-[var(--gray-light)] transition-colors cursor-pointer" aria-label="Back to home">
+                <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4 text-[var(--navy)]" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" /></svg>
+              </button>
               <div className="w-8 h-8 rounded-lg bg-white flex items-center justify-center shadow-sm">
                 <SparkleIcon className="w-4 h-4" />
               </div>
-              <div>
-                <p className="text-[14px] font-semibold text-[var(--navy)]">AI Learning Assistant</p>
-              </div>
+              <p className="text-[14px] font-semibold text-[var(--navy)]">AVPN Learning Assistant</p>
             </div>
-            <button onClick={() => { setMessages([]); setChatActive(false); }} className="text-[12px] font-medium text-[var(--slate)] hover:text-[var(--navy)] transition-colors cursor-pointer">New chat</button>
+            <button onClick={() => { setMessages([]); }} className="text-[12px] font-medium text-[var(--slate)] hover:text-[var(--navy)] transition-colors cursor-pointer flex items-center gap-1">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 4v16m8-8H4" /></svg>
+              New chat
+            </button>
           </div>
         </div>
         <div ref={scrollRef} className="flex-1 overflow-y-auto px-6 py-6">
@@ -188,7 +215,7 @@ export default function HomePage() {
                   {msg.role === "assistant" && (
                     <div className="flex items-center gap-2 mb-2.5">
                       <SparkleIcon className="w-4 h-4" />
-                      <span className="text-[11px] font-semibold text-[var(--slate)]">AI Learning Assistant</span>
+                      <span className="text-[11px] font-semibold text-[var(--slate)]">AVPN Learning Assistant</span>
                     </div>
                   )}
                   {msg.content && (
@@ -213,7 +240,9 @@ export default function HomePage() {
                 <div className="bg-white border border-[var(--slate-light)]/15 rounded-2xl rounded-bl-sm px-5 py-4 shadow-sm">
                   <div className="flex items-center gap-2.5">
                     <SparkleIcon className="w-4 h-4" />
-                    <span className="text-[12px] text-[var(--slate)]">Thinking</span>
+                    <span className="text-[12px] text-[var(--slate)]">
+                      {messages.length <= 2 ? "Finding the best options for you" : "Looking into that"}
+                    </span>
                     <span className="flex gap-0.5">
                       <span className="w-1.5 h-1.5 bg-[var(--teal)] rounded-full animate-bounce" style={{ animationDelay: "0ms" }} />
                       <span className="w-1.5 h-1.5 bg-[var(--teal)] rounded-full animate-bounce" style={{ animationDelay: "150ms" }} />
@@ -223,11 +252,22 @@ export default function HomePage() {
                 </div>
               </div>
             )}
+            {/* Follow-up suggestion chips from AI */}
+            {!isTyping && messages.length > 0 && messages[messages.length - 1]?.role === "assistant" && messages[messages.length - 1]?.suggestions && messages[messages.length - 1].suggestions!.length > 0 && (
+              <div className="flex flex-wrap gap-2 mt-1 animate-in">
+                {messages[messages.length - 1].suggestions!.map((chip) => (
+                  <button key={chip} onClick={() => sendMessage(chip)}
+                    className="text-[13px] text-[var(--navy)]/70 bg-white border border-[var(--slate-light)]/20 rounded-full px-3.5 py-2 hover:bg-[var(--teal-ice)] hover:text-[var(--navy)] hover:border-[var(--teal)]/30 transition-all cursor-pointer">
+                    {chip}
+                  </button>
+                ))}
+              </div>
+            )}
           </div>
         </div>
         <div className="border-t border-[var(--slate-light)]/10 bg-white px-6 py-4 flex-shrink-0">
           <form onSubmit={handleSubmit} className="max-w-2xl mx-auto relative">
-            <input ref={inputRef} type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Ask a follow-up question..." disabled={isTyping}
+            <input ref={inputRef} type="text" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Type a message..." disabled={isTyping}
               className="w-full h-12 bg-[var(--gray-light)] rounded-2xl pl-5 pr-14 text-[15px] text-[var(--navy)] placeholder-[var(--slate-light)] focus:outline-none focus:ring-2 focus:ring-[var(--teal)]/30 focus:bg-white transition-all disabled:opacity-60" />
             <button type="submit" disabled={!input.trim() || isTyping} className="absolute right-2 top-1/2 -translate-y-1/2 w-8 h-8 rounded-xl bg-[var(--red)] text-white flex items-center justify-center hover:bg-[var(--red-dark)] transition-colors disabled:opacity-30 cursor-pointer">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}><path strokeLinecap="round" strokeLinejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
@@ -288,7 +328,7 @@ export default function HomePage() {
               {/* Suggestion chips — natural, curious questions */}
               <div className="flex flex-wrap gap-2 animate-in stagger-5">
                 {SUGGESTIONS.map((s) => (
-                  <button key={s} onClick={() => sendMessage(s)}
+                  <button key={s} onClick={() => startNewChat(s)}
                     className="text-[13px] text-[var(--navy)]/70 bg-white/70 backdrop-blur-sm rounded-full px-3.5 py-2 hover:bg-white hover:text-[var(--navy)] hover:shadow-[0_2px_8px_rgba(0,41,68,0.08)] transition-all cursor-pointer">
                     {s}
                   </button>
@@ -365,7 +405,7 @@ export default function HomePage() {
           <h2 className="text-[var(--navy)] text-[24px] font-bold mb-8">Browse by Country</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-3">
             {countryHighlights.map((c) => (
-              <button key={c.name} onClick={() => sendMessage(`What's available in ${c.name}?`)}
+              <button key={c.name} onClick={() => startNewChat(`What's available in ${c.name}?`)}
                 className="group bg-white rounded-xl p-4 border border-[var(--slate-light)]/20 hover:border-[var(--teal)]/40 hover:shadow-[0_4px_20px_rgba(145,199,214,0.12)] transition-all text-left cursor-pointer">
                 <span className="text-[28px] block mb-2">{c.flag}</span>
                 <p className="text-[14px] font-semibold text-[var(--navy)]">{c.name}</p>
